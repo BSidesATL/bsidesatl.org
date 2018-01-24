@@ -142,7 +142,7 @@ She worked at Pied Piper for years until they went belly up."""
 
     # About section
   [params.schedule]
-    enable = true
+    enable = false
     title = "Schedule"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     endpoint = "Prepare<br>for<br>next year"
@@ -170,7 +170,7 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Team section
   [params.speakers]
-    enable = true
+    enable = false
     # Possibility to center items
     #center = true
     title = "Our amazing speakers"
