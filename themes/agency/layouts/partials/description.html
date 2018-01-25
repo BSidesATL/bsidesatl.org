@@ -1,0 +1,11 @@
+{{ "<!-- Description -->" | safeHTML }}
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ with .Site.Params.text.title }}{{ . }}{{ end }}</h2>
+        <p>{{ with .Site.Params.text.text }}{{ . | markdownify }}{{ end }}</p>
+      </div>
+    </div>
+  </div>
+</div>
