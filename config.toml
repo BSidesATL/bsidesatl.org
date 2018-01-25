@@ -68,7 +68,7 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "An event for and by information security community members."
+    title = "May ? 2018 - Somewhere"
     subtitle = "BSides Atlanta"
 
   [params.text]
