@@ -48,6 +48,7 @@ googleAnalytics = ""
     brand = "BSides ATL"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
+    desc = "About"
     speakers = "Speakers"
     #portfolio = "Portfolio"
     schedule = "Schedule"
@@ -71,10 +72,19 @@ googleAnalytics = ""
     title = "May ? 2018 - Somewhere"
     subtitle = "BSides Atlanta"
 
-  [params.text]
+#    [[params.hero.links]]
+#      link = "https://google.com"
+#      text = "Submit a Presentation"
+
+#    [[params.hero.links]]
+#      link = "/tickets"
+#      text = "Get a Ticket"
+
+  # Description section
+  [params.desc]
+    enable = true
     title = "About BSides"
-	text = """This is some text
-"""
+    text = "Each BSides is a **community-driven** framework for building events for and by information security community members.  The goal is to expand the spectrum of conversation beyond the traditional confines of space and time.  It creates opportunities for individuals to both present and participate in an intimate atmosphere that encourages collaboration. It is an intense event with discussions, demos, and interaction from participants. It is where conversations for the next-big-thing are happening."
 
   # Team section
   [params.team]
@@ -130,7 +140,7 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Portfolio section
   [params.portfolio]
-    enable = true
+    enable = false
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
@@ -293,11 +303,16 @@ She worked at Pied Piper for years until they went belly up."""
     enable = true
     copyright = ""
 
-#    [[params.footer.social]]
-#      icon = "fa-twitter"
-#      link = "#"
-#      title = "Twitter"
-#
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      link = "https://twitter.com/bsidesatl"
+      title = "Twitter"
+
+    [[params.footer.social]]
+      icon = "fa-github"
+      link = "https://github.com/bsidesatl"
+      title = "Twitter"
+
 #    [[params.footer.social]]
 #      icon = "fa-facebook"
 #      link = "#"
@@ -308,6 +323,6 @@ She worked at Pied Piper for years until they went belly up."""
 #      link = "#"
 #      title = "LinkedIn"
 #
-#    [[params.footer.quicklinks]]
+    [[params.footer.quicklinks]]
       text = "Code of Conduct"
       link = "#"

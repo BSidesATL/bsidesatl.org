@@ -35,6 +35,12 @@
           </li>
         {{ end }}
 
+        {{ if .Site.Params.desc.enable }}
+          <li>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#desc">{{ with .Site.Params.navigation.desc }}{{ . }}{{ end }}</a>
+          </li>
+        {{ end }}
+
         {{ if .Site.Params.schedule.enable }}
           <li>
             <a class="page-scroll" href="{{ .Site.BaseURL }}#schedule">{{ with .Site.Params.navigation.schedule }}{{ . }}{{ end }}</a>
