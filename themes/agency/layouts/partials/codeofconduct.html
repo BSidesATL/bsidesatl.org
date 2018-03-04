@@ -1,0 +1,11 @@
+{{ "<!-- Description -->" | safeHTML }}
+<section id="codeofconduct">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ with .Site.Params.codeofconduct.title }}{{ . }}{{ end }}</h2>
+        <p>{{ with .Site.Params.codeofconduct.text }}{{ . | markdownify }}{{ end }}</p>
+      </div>
+    </div>
+  </div>
+</section>

@@ -31,12 +31,12 @@
       {{ partial "contact.html" . }}
     {{ end }}
 
-    {{ if .Site.Params.footer.enable }}
-      {{ partial "footer.html" . }}
+    {{ if .Site.Params.codeofconduct.enable }}
+      {{ partial "codeofconduct.html" . }}
     {{ end }}
 
-    {{ if .Site.Params.portfolio.enable }}
-      {{ partial "modals.html" . }}
+    {{ if .Site.Params.footer.enable }}
+      {{ partial "footer.html" . }}
     {{ end }}
 
     {{ partial "js.html" . }}
