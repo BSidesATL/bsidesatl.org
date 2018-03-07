@@ -72,9 +72,9 @@ googleAnalytics = ""
     title = "May 5 2018 - KSU Center, Kennesaw"
     subtitle = "BSides Atlanta"
 
-#    [[params.hero.links]]
-#      link = "https://google.com"
-#      text = "Submit a Presentation"
+    [[params.hero.links]]
+      link = "https://easychair.org/conferences/?conf=bsidesatlanta2018"
+      text = "Submit a Presentation"
 
     [[params.hero.links]]
       link = "https://docs.google.com/forms/d/e/1FAIpQLScB22CNQlJTRB1209C9LpAjc05i9U2_U1ev-Y_lEiU-Uf06wQ/viewform"
