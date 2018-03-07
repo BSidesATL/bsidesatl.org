@@ -73,7 +73,7 @@ googleAnalytics = ""
     subtitle = "BSides Atlanta"
 
     [[params.hero.links]]
-      link = "https://easychair.org/conferences/?conf=bsidesatlanta2018"
+      link = "https://easychair.org/cfp/bsidesatl2018"
       text = "Submit a Presentation"
 
     [[params.hero.links]]
