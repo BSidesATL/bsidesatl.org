@@ -29,6 +29,9 @@ googleAnalytics = ""
   # Exception: Fontawesome
   disableFonts = true
 
+  # Enable the BSidesATL Twitter Card image
+  twitterCard = true
+
   # 404 error customization
   [params.error404]
     heading = "Page couldn't be found"

@@ -30,6 +30,13 @@
     <link rel="icon" type="image/x-icon" href="{{ . | absURL }}">
   {{ end }}
 
+  {{ with .Site.Params.twitterCard }}
+    <meta property="og:site_name" content="BSides Atlanta" />
+    <meta property="og:title" content="BSides Atlanta // May 5, 2018" />
+    <meta property="og:image" content="img/bsides-twitter-card.png" />
+    <meta property="og:description" content="BSides Atlanta // May 5, 2018" />
+  {{ end }}
+
   {{ "<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->" | safeHTML }}
   {{ "<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->" | safeHTML }}
   {{ "<!--[if lt IE 9]>" | safeHTML }}
