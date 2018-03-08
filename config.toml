@@ -30,7 +30,7 @@ googleAnalytics = ""
   disableFonts = true
 
   # Enable the BSidesATL Twitter Card image
-  twitterCard = true
+  socialCard = true
 
   # 404 error customization
   [params.error404]

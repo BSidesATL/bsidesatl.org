@@ -30,11 +30,15 @@
     <link rel="icon" type="image/x-icon" href="{{ . | absURL }}">
   {{ end }}
 
-  {{ with .Site.Params.twitterCard }}
+  {{ with .Site.Params.socialCard }}
+    <meta name="thumbnail" content="img/bsides-twitter-card.png" />
     <meta property="og:site_name" content="BSides Atlanta" />
     <meta property="og:title" content="BSides Atlanta // May 5, 2018" />
     <meta property="og:image" content="img/bsides-twitter-card.png" />
     <meta property="og:description" content="BSides Atlanta // May 5, 2018" />
+    <meta name="twitter:image" content="img/bsides-twitter-card.png" />
+    <meta name="twitter:site" content="@bsidesatl"/>
+    <meta name="twitter:card" content="summary_large_image"/>
   {{ end }}
 
   {{ "<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->" | safeHTML }}
