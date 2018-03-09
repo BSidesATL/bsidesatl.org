@@ -233,30 +233,18 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Client section
     [params.sponsors_list]
-      enable = false
+      enable = true
       # Possibility to center items
-      #center = true
+      center = true
       # Optional sponsor title specifying the involvement
-      #title = "Used and trusted by"
+      title = "Our Sponsors"
 
       # All the sponsors' logos are stored under 'static/img/logos'.
       # Replace them with your sponsors's logos.
       # Suggestion: .svg in the size of 280px*80px looks good
       [[params.sponsors]]
-        logo = "envato.jpg"
-        link = "#"
-
-      [[params.sponsors]]
-        logo = "designmodo.jpg"
-        link = "#"
-
-      [[params.sponsors]]
-        logo = "themeforest.jpg"
-        link = "#"
-
-      [[params.sponsors]]
-        logo = "creative-market.jpg"
-        link = "#"
+        logo = "ksu-is.png"
+        link = "http://coles.kennesaw.edu/information-systems/"
 
   # Contact section
   [params.contact]
