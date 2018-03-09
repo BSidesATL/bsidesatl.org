@@ -84,6 +84,10 @@ googleAnalytics = ""
       text = "Sponsor"
 
     [[params.hero.links]]
+      link = "https://docs.google.com/forms/d/e/1FAIpQLSfJdbU1rZpXDS2nk_D5cfEAlaki1Hnmu-K_ntwCd1CI2_VSjA/viewform"
+      text = "Volunteer"
+
+    [[params.hero.links]]
       link = "https://bsidesatl2018.eventbrite.com"
       text = "Get a Ticket"
 
