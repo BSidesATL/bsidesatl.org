@@ -184,7 +184,7 @@ She worked at Pied Piper for years until they went belly up."""
       img = "1.jpg"
       date = "9am"
       title = "Doors open"
-      description = "Registration and Lockpick Village are open at this time."
+      description = "Registration, CTFs, and Lockpick Village are open at this time."
 
     [[params.schedule.events]]
       img = "2.jpg"
@@ -252,6 +252,9 @@ She worked at Pied Piper for years until they went belly up."""
       [[params.sponsors]]
         logo = "foxpick.jpg"
         link = "https://twitter.com/Fox_Pick"
+      [[params.sponsors]]
+        logo = "cg-silvers.png"
+        link = "https://www.cgsilvers.com/"
 
   # Contact section
   [params.contact]
