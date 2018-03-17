@@ -255,6 +255,9 @@ She worked at Pied Piper for years until they went belly up."""
       [[params.sponsors]]
         logo = "cg-silvers.png"
         link = "https://www.cgsilvers.com/"
+      [[params.sponsors]]
+        logo = "netkoth.png"
+        link = "https://netkoth.github.io"
 
   # Contact section
   [params.contact]
