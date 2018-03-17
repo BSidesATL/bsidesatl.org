@@ -57,6 +57,7 @@ googleAnalytics = ""
     schedule = "Schedule"
     team = "Team"
     contact = "Contact"
+    sponsors = "Sponsors"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -242,6 +243,7 @@ She worked at Pied Piper for years until they went belly up."""
       center = true
       # Optional sponsor title specifying the involvement
       title = "Our Sponsors"
+      subtitle = "We thank these sponsors for making our event great!"
 
       # All the sponsors' logos are stored under 'static/img/logos'.
       # Replace them with your sponsors's logos.
