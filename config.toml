@@ -260,6 +260,9 @@ She worked at Pied Piper for years until they went belly up."""
       [[params.sponsors]]
         logo = "netkoth.png"
         link = "https://netkoth.github.io"
+      [[params.sponsors]]
+        logo = "cybersecjobs.png"
+        link = "https://cybersecjobs.com"
 
   # Contact section
   [params.contact]
