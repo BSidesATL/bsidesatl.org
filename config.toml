@@ -207,33 +207,34 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Team section
   [params.speakers]
-    enable = false
+    enable = true
     # Possibility to center items
     #center = true
     title = "Our amazing speakers"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    subtitle = "Without them, we'd just be drinking coffee and eating lunch all day."
+    #description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
     # All speakers member's pictures are stored under 'static/img/speakers'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.speakers.members]]
-      img = "1.jpg"
-      name = "Jane Speaker"
-      position = "Talk Title"
-      reportsTo = "affiliation"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
+      img = "eric.bryan.png"
+      name = "Eric Bryan"
+      position = "Vulnerability Management 101: Practical Experience and Recommendations"
+      company = "[North State Communications, LLC](https://northstate.net)"
+      bio = """Eric Bryan is an Information Technology and Security professional with an extensive background as a security and risk analyst. Prior to joining NorthState Technology Solutions, Eric worked for one of the five largest U.S. IT companies in various roles including Desktop Support, Risk Management Analyst, and Compliance Analyst. Mr. Bryan’s extensive technical IT security experience includes change management, vulnerability management, and analyzing security controls."""
+      social = [
+       ["fa-twitter", "https://twitter.com/F3_WhiteHat"],
       ]
-      # For bio markdown and even multiline strings are available.
-      bio = """Bio about speaker."""
+
+    [[params.speakers.members]]
+      img = "george.roberson.jpg"
+      name = "George Roberson"
+      position = "Ozymandius and InfoSec RockStars – Look on my (lack of documentation) and despair!"
+      company = ""
+      bio = """George Roberson is the Information Security Architect for United Community Banks, Inc.  Half of his life has been spent supporting technology and security.  He has a deep understanding of the value of "institutional knowledge" and has been around long enough to see giants rise and fall.  A self-described "documentation freak" who writes everything with consideration for his own mortality.  Like Moses come down from the mountain, he wields the FFIEC-CAT and the CSC-20 as the two tablets brought down from Sinai."""
       social = [
        # ["fa-twitter", "#"],
-       # ["fa-facebook", "#"],
-       # ["fa-linkedin", "#"]
       ]
 
   # Client section
