@@ -228,6 +228,18 @@ She worked at Pied Piper for years until they went belly up."""
       ]
 
     [[params.speakers.members]]
+      img = "chris.corriere.jpg"
+      name = "Chris Corriere"
+      position = "Value Chain Maps for Open Source Ecosystems"
+      reportsTo = "affiliation"
+      bio = """
+Chris Corriere has been working with data, phones, networks and writing software for over fifteen years. His background in mathematics and engineering has allowed him to adapt to new and industry specific technologies and provided many unique consulting opportunities. As a devOps professional Chris is committed to culture, automation, learning, sharing, and having a good time while getting work done. Chris is currently a senior consultant with SJ Technologies operating as an architect in SunTrust's DevOps Center for Enablement."""
+      social = [
+       # ["fa-twitter", "#"],
+      ]
+
+
+    [[params.speakers.members]]
       img = "george.roberson.jpg"
       name = "George Roberson"
       position = "Ozymandius and InfoSec RockStars – Look on my (lack of documentation) and despair!"
