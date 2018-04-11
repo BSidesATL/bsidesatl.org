@@ -312,7 +312,8 @@ Nick currently performs offensive security related engagements at Rapid7."""
       company = ""
       bio = """The Southern Fried Security Podcast is Martin FIsher, Andy Willingham, Steve Ragan, Joseph Sokoly, and Yvette Johnson.  Their award-nominated podcast has been sharing updates, news, and ideas about information security since 2010.  This recording at BSides Atlanta will be the first ever recording where all of the hosts are all in the room at the same time.  The recording will be posted as a regular episode shortly after BSides ends."""
       social = [
-       # ["fa-twitter", "#"],
+       ["fa-twitter", "https://twitter.com/SFSPodcast"],
+       [ "fa-link", "https://southernfriedsecurity.com/" ],
       ]
 
 
