@@ -201,7 +201,7 @@ She worked at Pied Piper for years until they went belly up."""
 
     [[params.schedule.events]]
       img = "3.jpg"
-      date = "1pm-5pm"
+      date = "1pm-6pm"
       title = "More Talks"
       description = ""
 
@@ -297,12 +297,13 @@ Nick currently performs offensive security related engagements at Rapid7."""
       ]
 
     [[params.speakers.members]]
-      img = "bunny.jpg"
-      name = "Wes Widner"
-      position = "Containing the Cloud"
-      bio = """TBD"""
+      img = "anthony.sasadeusz.jpg"
+      name = "Anthony Sasadeusz"
+      position = "Oh the POSsibilities"
+      company = "VerSprite"
+      bio = """Anthony is a security researcher at VerSprite Security. He is currently focused on hardware communications, exploitation and reverse engineering. Before coming to work for VerSprite, Anthony competed in various CTFs with the University of Maryland Baltimore County (UMBC) CyberDawgs team, which is where he earned his B.S. in Computer Science. This is also where his interest in offensive computer security blossomed."""
       social = [
-       # ["fa-twitter", "#"],
+       ["fa-twitter", "https://twitter.com/_nullsector_"],
       ]
 
     [[params.speakers.members]]
@@ -313,8 +314,27 @@ Nick currently performs offensive security related engagements at Rapid7."""
       bio = """The Southern Fried Security Podcast is Martin FIsher, Andy Willingham, Steve Ragan, Joseph Sokoly, and Yvette Johnson.  Their award-nominated podcast has been sharing updates, news, and ideas about information security since 2010.  This recording at BSides Atlanta will be the first ever recording where all of the hosts are all in the room at the same time.  The recording will be posted as a regular episode shortly after BSides ends."""
       social = [
        ["fa-twitter", "https://twitter.com/SFSPodcast"],
-       [ "fa-link", "https://southernfriedsecurity.com/" ],
+       ["fa-link", "https://southernfriedsecurity.com/" ],
       ]
+
+    [[params.speakers.members]]
+      img = "fabius.watson.jpg"
+      name = "Fabius Watson"
+      position = "Oh the POSsibilities"
+      bio = """Fabius is a Security Researcher at VerSprite Security. He is ambitious about reverse engineering, vulnerability research, exploit development, and post-exploitation. Both his previous work as a Network Security Analyst and his Red Team knowledge provide him with a distinct perspective for examining technologies for real-world threats."""
+      social = [
+       ["fa-twitter", "https://twitter.com/FabiusArtrel"],
+      ]
+
+    [[params.speakers.members]]
+      img = "wes.widner.jpg"
+      name = "Wes Widner"
+      position = "Containing the Cloud"
+      bio = """Wes Widner is a veteran in the threat intelligence industry. His work history includes data engineering and threat modeling with McAfee Labs’s Global Threat Intelligence, building out a large scale malware pipeline with Norse Corporation, and engineering clouds at Crowdstrike. He specializes in building large scale distributed threat intelligence systems that span a range of threat vectors. Wes also enjoys teaching children how to hack, ethically of course."""
+      social = [
+       # ["fa-twitter", "#"],
+      ]
+
 
 
   # Client section
