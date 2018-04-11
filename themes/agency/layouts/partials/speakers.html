@@ -14,12 +14,12 @@
             {{ $url := printf "img/speakers/%s" .img }}
             <img src="{{ $url | absURL }}" class="img-responsive img-circle" alt="{{ .name }}">
             <h3>{{ .name | markdownify }}</h3>
+            {{ with .company }}
+            <h5 class="report">{{ . | markdownify }}</h5>
+            {{ end }}
 
             {{ with .position }}
             <h4>{{ . | markdownify }}</h4>
-            {{ end }}
-            {{ with .reportsTo }}
-            <h5 class="report">{{ . | markdownify }}</h5>
             {{ end }}
 
             {{ with .livesIn }}

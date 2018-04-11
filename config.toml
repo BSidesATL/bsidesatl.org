@@ -207,34 +207,114 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Team section
   [params.speakers]
-    enable = false
+    enable = true
     # Possibility to center items
     #center = true
     title = "Our amazing speakers"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    subtitle = "Without them, we'd just be drinking coffee and eating lunch all day."
+    #description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
     # All speakers member's pictures are stored under 'static/img/speakers'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.speakers.members]]
-      img = "1.jpg"
-      name = "Jane Speaker"
-      position = "Talk Title"
-      reportsTo = "affiliation"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
+      img = "eric.bryan.png"
+      name = "Eric Bryan"
+      position = "Vulnerability Management 101: Practical Experience and Recommendations"
+      company = "[North State Communications, LLC](https://northstate.net)"
+      bio = """Eric Bryan is an Information Technology and Security professional with an extensive background as a security and risk analyst. Prior to joining NorthState Technology Solutions, Eric worked for one of the five largest U.S. IT companies in various roles including Desktop Support, Risk Management Analyst, and Compliance Analyst. Mr. Bryan’s extensive technical IT security experience includes change management, vulnerability management, and analyzing security controls."""
+      social = [
+       ["fa-twitter", "https://twitter.com/F3_WhiteHat"],
       ]
-      # For bio markdown and even multiline strings are available.
-      bio = """Bio about speaker."""
+
+    [[params.speakers.members]]
+      img = "chris.corriere.jpg"
+      name = "Chris Corriere"
+      position = "Value Chain Maps for Open Source Ecosystems"
+      reportsTo = "affiliation"
+      bio = """
+Chris Corriere has been working with data, phones, networks and writing software for over fifteen years. His background in mathematics and engineering has allowed him to adapt to new and industry specific technologies and provided many unique consulting opportunities. As a devOps professional Chris is committed to culture, automation, learning, sharing, and having a good time while getting work done. Chris is currently a senior consultant with SJ Technologies operating as an architect in SunTrust's DevOps Center for Enablement."""
       social = [
        # ["fa-twitter", "#"],
-       # ["fa-facebook", "#"],
-       # ["fa-linkedin", "#"]
       ]
+
+    [[params.speakers.members]]
+      img = "joe.gray.jpg"
+      name = "Joe Gray"
+      position = "Dear Blue Team: Proactive Steps to Supercharge your IR"
+      company = ""
+      bio = """Joe Gray joined the U.S. Navy directly out of High School and served for 7 years as a Submarine Navigation Electronics Technician. Joe is currently a Senior Security Architect and maintains his own blog and podcast called Advanced Persistent Security. In his spare time, Joe enjoys attending information security conferences, contributing blogs to various outlets, training in Brazilian Jiu Jitsu (spoken taps out A LOT!), and flying his drone. Joe is the inaugural winner of the DerbyCon Social Engineering Capture the Flag (SECTF) and was awarded a DerbyCon Black Badge. Joe has contributed material for the likes of AlienVault, ITSP Magazine, CSO Online, and Dark Reading."""
+      social = [
+       ["fa-twitter", "https://twitter.com/C_3PJoe"],
+       [ "fa-linkedin", "https://www.linkedin.com/in/joegrayinfosec/"],
+       [ "fa-facebook", "https://www.facebook.com/joegrayinfosec"],
+       [ "fa-link", "http://advancedpersistentsecurity.net/" ],
+      ]
+
+    [[params.speakers.members]]
+      img = "george.roberson.jpg"
+      name = "George Roberson"
+      position = "Ozymandius and InfoSec RockStars – Look on my (lack of documentation) and despair!"
+      company = ""
+      bio = """George Roberson is the Information Security Architect for United Community Banks, Inc.  Half of his life has been spent supporting technology and security.  He has a deep understanding of the value of "institutional knowledge" and has been around long enough to see giants rise and fall.  A self-described "documentation freak" who writes everything with consideration for his own mortality.  Like Moses come down from the mountain, he wields the FFIEC-CAT and the CSC-20 as the two tablets brought down from Sinai."""
+      social = [
+       # ["fa-twitter", "#"],
+      ]
+
+    [[params.speakers.members]]
+      img = "bunny.jpg"
+      name = "Jessica Pepper"
+      position = "Mail Carts to Malware"
+      company = ""
+      bio = """TBD"""
+      social = [
+       # ["fa-twitter", "#"],
+      ]
+
+    [[params.speakers.members]]
+      img = "bunny.jpg"
+      name = "Nick Powers"
+      position = "Current State of Phishing - Old Bait, New Tackle Box"
+      company = "Rapid7"
+      bio = """Nick Powers (OSCP, B.S. Computer Science) has two years of security consulting experience, since
+receiving his Bachelors of Computer Science degree in May of 2016. His previous experience includes
+compliance focused security audits within the scope of PCI, HIPAA, and other governance ordinances. He
+has also worked as an analyst in a Security Operations Center (SOC) performing tasks such as writing IPS
+signatures for new vulnerabilities, investigating incidents, and interacting with multiple SIEM solutions.
+Nick currently performs offensive security related engagements at Rapid7."""
+      social = [
+       # ["fa-twitter", "#"],
+      ]
+
+    [[params.speakers.members]]
+      img = "david.tulis.jpg"
+      name = "David Tulis"
+      position = "Current State of Phishing - Old Bait, New Tackle Box"
+      company = "Protiviti"
+      bio = """David Tulis is a senior consultant for Protiviti out of Philadelphia, where he has worked for 2 years. Day to day tasks involve writing reports, with a little bit of penetration testing and social engineering in between. David’s expertise includes managing pentesting infrastructure, active directory, and PowerShell. He enjoys spending his time learning new and cool tricks to use on penetration tests. He's previously worked as a .NET developer and as a Linux sysadmin."""
+      social = [
+       ["fa-twitter", "https://twitter.com/kafkaesqu3"],
+      ]
+
+    [[params.speakers.members]]
+      img = "bunny.jpg"
+      name = "Wes Widner"
+      position = "Containing the Cloud"
+      bio = """TBD"""
+      social = [
+       # ["fa-twitter", "#"],
+      ]
+
+    [[params.speakers.members]]
+      img = "bunny.jpg"
+      name = "Southern Fried Security"
+      position = "Podcast Recording"
+      company = ""
+      bio = """TBD"""
+      social = [
+       # ["fa-twitter", "#"],
+      ]
+
 
   # Client section
     [params.sponsors_list]
