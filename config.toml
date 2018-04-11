@@ -344,6 +344,9 @@ Nick currently performs offensive security related engagements at Rapid7."""
       [[params.sponsors]]
         logo = "cybersecjobs.png"
         link = "https://cybersecjobs.com"
+      [[params.sponsors]]
+        logo = "aarons.png"
+        link = "https://www.aarons.com/"
 
   # Contact section
   [params.contact]
