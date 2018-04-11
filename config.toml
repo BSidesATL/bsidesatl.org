@@ -262,11 +262,11 @@ Chris Corriere has been working with data, phones, networks and writing software
       ]
 
     [[params.speakers.members]]
-      img = "bunny.jpg"
+      img = "jessica.pepper.jpg"
       name = "Jessica Pepper"
       position = "Mail Carts to Malware"
       company = ""
-      bio = """TBD"""
+      bio = """Jessica Pepper started as a mail clerk with her current company.  After putting herself through school, she moved to Field Services and has since changed careers again working as a Senior Threat Operations Analyst.  She enjoys learning about emerging threats and building PC's for her home lab environments."""
       social = [
        # ["fa-twitter", "#"],
       ]
