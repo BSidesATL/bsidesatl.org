@@ -238,6 +238,18 @@ Chris Corriere has been working with data, phones, networks and writing software
        # ["fa-twitter", "#"],
       ]
 
+    [[params.speakers.members]]
+      img = "joe.gray.jpg"
+      name = "Joe Gray"
+      position = "Dear Blue Team: Proactive Steps to Supercharge your IR"
+      company = ""
+      bio = """Joe Gray joined the U.S. Navy directly out of High School and served for 7 years as a Submarine Navigation Electronics Technician. Joe is currently a Senior Security Architect and maintains his own blog and podcast called Advanced Persistent Security. In his spare time, Joe enjoys attending information security conferences, contributing blogs to various outlets, training in Brazilian Jiu Jitsu (spoken taps out A LOT!), and flying his drone. Joe is the inaugural winner of the DerbyCon Social Engineering Capture the Flag (SECTF) and was awarded a DerbyCon Black Badge. Joe has contributed material for the likes of AlienVault, ITSP Magazine, CSO Online, and Dark Reading."""
+      social = [
+       ["fa-twitter", "https://twitter.com/C_3PJoe"],
+       [ "fa-linkedin", "https://www.linkedin.com/in/joegrayinfosec/"],
+       [ "fa-facebook", "https://www.facebook.com/joegrayinfosec"],
+       [ "fa-link", "http://advancedpersistentsecurity.net/" ],
+      ]
 
     [[params.speakers.members]]
       img = "george.roberson.jpg"
@@ -248,6 +260,61 @@ Chris Corriere has been working with data, phones, networks and writing software
       social = [
        # ["fa-twitter", "#"],
       ]
+
+    [[params.speakers.members]]
+      img = "bunny.jpg"
+      name = "Jessica Pepper"
+      position = "Mail Carts to Malware"
+      company = ""
+      bio = """TBD"""
+      social = [
+       # ["fa-twitter", "#"],
+      ]
+
+    [[params.speakers.members]]
+      img = "bunny.jpg"
+      name = "Nick Powers"
+      position = "Current State of Phishing - Old Bait, New Tackle Box"
+      company = "Rapid7"
+      bio = """Nick Powers (OSCP, B.S. Computer Science) has two years of security consulting experience, since
+receiving his Bachelors of Computer Science degree in May of 2016. His previous experience includes
+compliance focused security audits within the scope of PCI, HIPAA, and other governance ordinances. He
+has also worked as an analyst in a Security Operations Center (SOC) performing tasks such as writing IPS
+signatures for new vulnerabilities, investigating incidents, and interacting with multiple SIEM solutions.
+Nick currently performs offensive security related engagements at Rapid7."""
+      social = [
+       # ["fa-twitter", "#"],
+      ]
+
+    [[params.speakers.members]]
+      img = "david.tulis.jpg"
+      name = "David Tulis"
+      position = "Current State of Phishing - Old Bait, New Tackle Box"
+      company = "Protiviti"
+      bio = """David Tulis is a senior consultant for Protiviti out of Philadelphia, where he has worked for 2 years. Day to day tasks involve writing reports, with a little bit of penetration testing and social engineering in between. David’s expertise includes managing pentesting infrastructure, active directory, and PowerShell. He enjoys spending his time learning new and cool tricks to use on penetration tests. He's previously worked as a .NET developer and as a Linux sysadmin."""
+      social = [
+       ["fa-twitter", "https://twitter.com/kafkaesqu3"],
+      ]
+
+    [[params.speakers.members]]
+      img = "bunny.jpg"
+      name = "Wes Widner"
+      position = "Containing the Cloud"
+      bio = """TBD"""
+      social = [
+       # ["fa-twitter", "#"],
+      ]
+
+    [[params.speakers.members]]
+      img = "bunny.jpg"
+      name = "Southern Fried Security"
+      position = "Podcast Recording"
+      company = ""
+      bio = """TBD"""
+      social = [
+       # ["fa-twitter", "#"],
+      ]
+
 
   # Client section
     [params.sponsors_list]
