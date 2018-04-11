@@ -7,8 +7,8 @@
     {{ partial "nav.html" . }}
     {{ partial "hero.html" . }}
 
-    {{ if .Site.Params.desc.enable }}
-      {{ partial "description.html" . }}
+    {{ if .Site.Params.about.enable }}
+      {{ partial "about.html" . }}
     {{ end }}
 
     {{ if .Site.Params.schedule.enable }}

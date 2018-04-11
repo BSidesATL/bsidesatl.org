@@ -51,7 +51,7 @@ googleAnalytics = ""
     brand = "BSides ATL"
     # Optional logo as brand stored in img/
     logo = "logo.svg"
-    desc = "About"
+    about = "About"
     speakers = "Speakers"
     #portfolio = "Portfolio"
     schedule = "Schedule"
@@ -92,8 +92,8 @@ googleAnalytics = ""
       link = "https://bsidesatl2018.eventbrite.com"
       text = "Get a Ticket"
 
-  # Description section
-  [params.desc]
+  # About section
+  [params.about]
     enable = true
     title = "About BSides"
     text = '''
@@ -182,16 +182,44 @@ She worked at Pied Piper for years until they went belly up."""
     # All images are stored under 'static/img/schedule'.
     # Replace them with your own.
     [[params.schedule.events]]
-      img = "1.jpg"
+      img = "bsides-square.png"
       date = "9am"
       title = "Doors open"
       description = "Registration, CTFs, and Lockpick Village are open at this time."
 
+    #[[params.schedule.events]]
+    #  img = "bagels.jpg"
+    #  date = "9am"
+    #  title = "Bagels and Coffee in the lobby"
+    #  description = "Provided by ?"
+
     [[params.schedule.events]]
-      img = "2.jpg"
+      img = "speakers/joetta.lesueur.jpg"
       date = "10am - 12pm"
-      title = "Talks"
-      description = ""
+      title = "Resume Review"
+      speaker = "JoEtta LeSueur"
+      description = "JoEtta is wandering the lobby ready to review resumes. Bring her yours printed, or on a laptop. She won't accept a thumbdrive."
+
+    [[params.schedule.events]]
+      img = "speakers/jessica.pepper.jpg"
+      date = "10am"
+      speaker = "Jessica Pepper"
+      title = "Mail Carts to Malware"
+      description = """In the beginnings of my career I was a wide-eyed and curious mail clerk learning what those 70 lb equipment boxes were for. Then joined desktop support and created my personal brand. Finally, I joined the security teams and let my brand evolve into becoming a "SOC mom." """
+
+    [[params.schedule.events]]
+      img = "speakers/wes.widner.jpg"
+      date = "10:30am"
+      title = "Containing the Cloud"
+      speaker = "Wes Widner"
+      description = "Curious about the current state of container security? Want to know what the best practices are for creating images? Interested in the current container security offerings? You're in luck! Come join me as we explore the attack surface for containers. Recent exploits. Best practices for creating container images. And the current offerings for container security. Besides containers deployed in production, an often overlooked attack vector with containers is developer machines."
+
+    [[params.schedule.events]]
+      img = "speakers/joe.gray.jpg"
+      date = "11am"
+      title = "Dear Blue Team: Proactive Steps to Supercharge your IR"
+      speaker = "Joe Gray"
+      description = "In an age where data breaches and malware infections are quickly becoming the norm, we must prepare for Digital Forensics and Incident Response (DFIR). Most DFIR talks and advice discuss what to do once an incident has occurred. Instead, this talk provides Security Architects, System Administrators, SOC teams, and management new techniques and advice to supercharge their IR capabilities by preemptively collecting forensic evidence as a baseline."
 
     [[params.schedule.events]]
       img = "3.jpg"
@@ -199,10 +227,61 @@ She worked at Pied Piper for years until they went belly up."""
       title = "Lunch"
       description = "Let's eat!"
 
+    #[[params.schedule.events]]
+    #  img = ""
+    #  date = "12pm"
+    #  title = "Resume Review
+    #  description = "Second resume review"
+
     [[params.schedule.events]]
-      img = "3.jpg"
-      date = "1pm-6pm"
-      title = "More Talks"
+      img = "speakers/david.tulis.jpg"
+      date = "1pm"
+      title = "Current State of Phishing - Old Bait, New Tackle Box"
+      speaker = "Nick Powers and David Tulis"
+      description = "Phishing has changed dramatically over the past several years and the methods used are constantly built upon, leveraging the work of those before us. As long as the transmission of messages from one computer to another has existed, phishing has not been far behind. As far back as phishing for AOL credentials to access to dial-up internet in the 1990s, along with the viral LOVEBUG script shortly thereafter, people have been tricked into divulging information or performing actions of which they do not fully understand the overall potential impact. As network perimeters become harder to penetrate, attackers are increasingly relying on phishing breach the perimeter."
+
+    [[params.schedule.events]]
+      img = "speakers/chris.corriere.jpg"
+      date = "2pm"
+      title = "Value Change Maps for Open Source Ecosystems"
+      speaker = "Chris Corriere"
+      description = """Open source is built on the shoulders of giants. Every technologist uses systems and components they did not produce, so how can we trust them to be safe?
+
+It can be difficult to ensure the security of production systems
+In the age of continuous delivery, and "third party dependency" has taken on a new meaning with the advent of technologies like containers and server-side JS."""
+
+    [[params.schedule.events]]
+      img = "speakers/george.roberson.jpg"
+      date = "3pm"
+      title = "Ozymandius and InfoSec RockStars – Look on my (lack of documentation) and despair!"
+      speaker = "George Roberson"
+      description = "Addressing the “Standing on the Shoulders of Giants” theme, I want to discuss what happens when giants fall, and how we can build a solid foundation to support those who come after us. This talk will cover how the resilience of an organization depends on those talented people who are pillars of institutional knowledge, but just as much on how prepared we are to lose them."
+
+    [[params.schedule.events]]
+      img = "speakers/eric.bryan.png"
+      date = "3:30pm"
+      title = "Vulnerability Management 101: Practical Experience and Recommendations"
+      speaker = "Eric Bryan"
+      description = "Vulnerability management, in the context of information security, is a critical, but often overlooked aspect in a comprehensive security posture. Many organizations are limited by time and resources to simply fighting fires and operating in a reactive methodology. Without a clear, defined, and management-supported vulnerability management effort, an organization may continue to operate indefinitely with a reactive methodology."
+
+    [[params.schedule.events]]
+      img = "speakers/anthony.and.favius.png"
+      date = "4pm"
+      title = "Oh the POSsibilities"
+      speaker = "Anthony Sasadeusz and Fabius Watson"
+      description = "In this presentation, we will share our Point-of-Sale security research which has revealed a multitude of concerns regarding the secure development of payment applications. We plan to discuss our analysis of several PA-DSS validated applications for security vulnerabilities and configuration issues. Next, we will cover our implementation of a proof-of-concept attack chain that demonstrates the capabilities an attacker could leverage in a vulnerable scenario. Finally, we will discuss the process of vulnerability discovery, development of attacker capabilities, as well as defensive countermeasures."
+
+    [[params.schedule.events]]
+      img = "speakers/southern.fried.security.jpg"
+      date = "5pm"
+      title = "Podcast Recording"
+      speaker = "Southern Fried Security"
+      description = "The first-ever full-cast live recording of an episode of The Southern Fried Security Podcast to be conducted at BSidesATL. The event would include all of the hosts (Martin Fisher, Andy Willingham, Steve Ragan, Joseph Sokoly, and Yvette Johnson) as well as live intro/outro music (Becky Fisher)."
+
+    [[params.schedule.events]]
+      img = "bsides-square.png"
+      date = "5:45pm"
+      title = "Closing notes"
       description = ""
 
   # Team section
@@ -249,6 +328,16 @@ Chris Corriere has been working with data, phones, networks and writing software
        [ "fa-linkedin", "https://www.linkedin.com/in/joegrayinfosec/"],
        [ "fa-facebook", "https://www.facebook.com/joegrayinfosec"],
        [ "fa-link", "http://advancedpersistentsecurity.net/" ],
+      ]
+
+    [[params.speakers.members]]
+      img = "joetta.lesueur.jpg"
+      name = "JoEtta LeSueur"
+      position = "Resume review"
+      company = ""
+      bio = """JoEtta LeSueur has over 13 years experience in the technology industry with the last 5 years in cybersecurity.  JoEtta has a Master of Science in Information Systems with a concentration in Information Security. She holds a CISSP certification. She is currently employed as a product security manager at Ionic Security and an adjunct professor at KSU."""
+      social = [
+       #["fa-twitter", "#"],
       ]
 
     [[params.speakers.members]]
