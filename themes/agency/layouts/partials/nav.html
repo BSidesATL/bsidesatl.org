@@ -35,9 +35,9 @@
           </li>
         {{ end }}
 
-        {{ if .Site.Params.desc.enable }}
+        {{ if .Site.Params.about.enable }}
           <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#desc">{{ with .Site.Params.navigation.desc }}{{ . }}{{ end }}</a>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#about">{{ with .Site.Params.navigation.about }}{{ . }}{{ end }}</a>
           </li>
         {{ end }}
 

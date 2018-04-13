@@ -14,13 +14,14 @@
           {{ range $i, $e := .Site.Params.schedule.events }}
             <li {{ if (not (modBool $i 2)) }}class="timeline-inverted" {{ end }}>
               <div class="timeline-image">
-                {{ $url := printf "img/schedule/%s" .img }}
+                {{ $url := printf "img/%s" .img }}
                 <img class="img-circle img-responsive" src="{{ $url | absURL }}" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>{{ .date }}</h4>
                   <h4 class="subheading">{{ .title | markdownify }}</h4>
+                  <h5>{{ .speaker }}</h5>
                 </div>
                 <div class="timeline-body">
                   <p class="text-muted">{{ .description  | markdownify }}</p>
