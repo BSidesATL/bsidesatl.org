@@ -347,7 +347,7 @@ Chris Corriere has been working with data, phones, networks and writing software
       company = ""
       bio = """George Roberson is the Information Security Architect for United Community Banks, Inc.  Half of his life has been spent supporting technology and security.  He has a deep understanding of the value of "institutional knowledge" and has been around long enough to see giants rise and fall.  A self-described "documentation freak" who writes everything with consideration for his own mortality.  Like Moses come down from the mountain, he wields the FFIEC-CAT and the CSC-20 as the two tablets brought down from Sinai."""
       social = [
-       # ["fa-twitter", "#"],
+       ["fa-twitter", "https://twitter.com/archinfosec"],
       ]
 
     [[params.speakers.members]]
