@@ -234,7 +234,7 @@ She worked at Pied Piper for years until they went belly up."""
     #  description = "Second resume review"
 
     [[params.schedule.events]]
-      img = "speakers/david.tulis.jpg"
+      img = "speakers/david.and.nick.png"
       date = "1pm"
       title = "Current State of Phishing - Old Bait, New Tackle Box"
       speaker = "Nick Powers and David Tulis"
@@ -265,7 +265,7 @@ In the age of continuous delivery, and "third party dependency" has taken on a n
       description = "Vulnerability management, in the context of information security, is a critical, but often overlooked aspect in a comprehensive security posture. Many organizations are limited by time and resources to simply fighting fires and operating in a reactive methodology. Without a clear, defined, and management-supported vulnerability management effort, an organization may continue to operate indefinitely with a reactive methodology."
 
     [[params.schedule.events]]
-      img = "speakers/anthony.and.favius.png"
+      img = "speakers/anthony.and.fabius.png"
       date = "4pm"
       title = "Oh the POSsibilities"
       speaker = "Anthony Sasadeusz and Fabius Watson"
@@ -361,7 +361,7 @@ Chris Corriere has been working with data, phones, networks and writing software
       ]
 
     [[params.speakers.members]]
-      img = "bunny.jpg"
+      img = "nick.powers.jpg"
       name = "Nick Powers"
       position = "Current State of Phishing - Old Bait, New Tackle Box"
       company = "Rapid7"
