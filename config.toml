@@ -284,6 +284,12 @@ In the age of continuous delivery, and "third party dependency" has taken on a n
       title = "Closing notes"
       description = ""
 
+    [[params.schedule.events]]
+      img = "critical.path.security.png"
+      date = "6:30pm"
+      title = "After Party"
+      description = "Hudson Grille, 2500 Cobb Parkway NW, Kennesaw Ga sponsored by Critical Path Security"
+
   # Team section
   [params.speakers]
     enable = true
