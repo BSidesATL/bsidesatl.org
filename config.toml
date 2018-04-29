@@ -84,6 +84,10 @@ googleAnalytics = ""
       link = "bsidesatl.2018.cpe.form.pdf"
       text = "CPE Form"
 
+    [[params.hero.links]]
+      link = "https://docs.google.com/forms/d/e/1FAIpQLScSveGPntHHofW_47WZkZbIEfrx4AxW-PtKshDlmaVHMbHWuA/viewform"
+      text = "Attendee Survey"
+
   # About section
   [params.about]
     enable = true
