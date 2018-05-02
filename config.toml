@@ -299,6 +299,16 @@ In the age of continuous delivery, and "third party dependency" has taken on a n
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.speakers.members]]
+      img = "bunny.jpg"
+      name = "Jay Beta"
+      position = "Resume review"
+      company = ""
+      bio = """Jay Beta, MBA, Certified Information Systems Auditor (CISA), Certified in Risk and Information Systems Control (CRISC) , Certified Information Security Manager (CISM), and Payment Card Industry Professional (PCIP), has been an Information Security professional for 16 years in both private and public sector roles. He has extensive background in leadership along with IT compliance, auditing, risk management, governance,and security engineering. He currently works as a cybersecurity leader for a national financial institution."""
+      social = [
+       #["fa-twitter", "#"],
+      ]
+
+    [[params.speakers.members]]
       img = "eric.bryan.png"
       name = "Eric Bryan"
       position = "Vulnerability Management 101: Practical Experience and Recommendations"
@@ -313,8 +323,7 @@ In the age of continuous delivery, and "third party dependency" has taken on a n
       name = "Chris Corriere"
       position = "Value Chain Maps for Open Source Ecosystems"
       reportsTo = "affiliation"
-      bio = """
-Chris Corriere has been working with data, phones, networks and writing software for over fifteen years. His background in mathematics and engineering has allowed him to adapt to new and industry specific technologies and provided many unique consulting opportunities. As a devOps professional Chris is committed to culture, automation, learning, sharing, and having a good time while getting work done. Chris is currently a senior consultant with SJ Technologies operating as an architect in SunTrust's DevOps Center for Enablement."""
+      bio = """Chris Corriere has been working with data, phones, networks and writing software for over fifteen years. His background in mathematics and engineering has allowed him to adapt to new and industry specific technologies and provided many unique consulting opportunities. As a devOps professional Chris is committed to culture, automation, learning, sharing, and having a good time while getting work done. Chris is currently a senior consultant with SJ Technologies operating as an architect in SunTrust's DevOps Center for Enablement."""
       social = [
        ["fa-twitter", "https://twitter.com/cacorriere"],
       ]
