@@ -349,7 +349,7 @@ In the age of continuous delivery, and "third party dependency" has taken on a n
       company = ""
       bio = """JoEtta LeSueur has over 13 years experience in the technology industry with the last 5 years in cybersecurity.  JoEtta has a Master of Science in Information Systems with a concentration in Information Security. She holds a CISSP certification. She is currently employed as a product security manager at Ionic Security and an adjunct professor at KSU."""
       social = [
-       #["fa-twitter", "#"],
+       ["fa-twitter", "https://twitter.com/SheRaRox"],
       ]
 
     [[params.speakers.members]]
