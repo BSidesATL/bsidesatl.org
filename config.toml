@@ -223,11 +223,12 @@ She worked at Pied Piper for years until they went belly up."""
       title = "Lunch"
       description = "Let's eat!"
 
-    #[[params.schedule.events]]
-    #  img = ""
-    #  date = "12pm"
-    #  title = "Resume Review
-    #  description = "Second resume review"
+    [[params.schedule.events]]
+      img = "speakers/jay.beta.png"
+      date = "12pm"
+      title = "Resume Review"
+      speaker = "Jay Beta"
+      description = "Jay Beta is taking over resume review for the afternoon. Bring him yours printed, or on a laptop. He won't accept a thumbdrive either."
 
     [[params.schedule.events]]
       img = "speakers/david.and.nick.png"
@@ -299,13 +300,13 @@ In the age of continuous delivery, and "third party dependency" has taken on a n
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.speakers.members]]
-      img = "bunny.jpg"
+      img = "jay.beta.png"
       name = "Jay Beta"
       position = "Resume review"
       company = ""
       bio = """Jay Beta, MBA, Certified Information Systems Auditor (CISA), Certified in Risk and Information Systems Control (CRISC) , Certified Information Security Manager (CISM), and Payment Card Industry Professional (PCIP), has been an Information Security professional for 16 years in both private and public sector roles. He has extensive background in leadership along with IT compliance, auditing, risk management, governance,and security engineering. He currently works as a cybersecurity leader for a national financial institution."""
       social = [
-       #["fa-twitter", "#"],
+       ["fa-twitter", "https://twitter.com/jaybeta"],
       ]
 
     [[params.speakers.members]]
