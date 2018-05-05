@@ -81,12 +81,8 @@ googleAnalytics = ""
     #  text = "Submit a Presentation"
 
     [[params.hero.links]]
-      link = "https://docs.google.com/forms/d/e/1FAIpQLScB22CNQlJTRB1209C9LpAjc05i9U2_U1ev-Y_lEiU-Uf06wQ/viewform"
-      text = "Sponsor"
-
-    [[params.hero.links]]
-      link = "https://bsidesatl2018.eventbrite.com"
-      text = "Get a Ticket"
+      link = "bsidesatl.2018.cpe.form.pdf"
+      text = "CPE Form"
 
   # About section
   [params.about]
