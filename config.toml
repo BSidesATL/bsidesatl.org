@@ -73,20 +73,20 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "May 5 2018 - KSU Center, Kennesaw"
+    title = "May 4 2019 - KSU Center, Kennesaw"
     subtitle = "BSides Atlanta"
 
     #[[params.hero.links]]
     #  link = "https://easychair.org/cfp/bsidesatl2018"
     #  text = "Submit a Presentation"
 
-    [[params.hero.links]]
-      link = "bsidesatl.2018.cpe.form.pdf"
-      text = "CPE Form"
+    # [[params.hero.links]]
+    #   link = "bsidesatl.2018.cpe.form.pdf"
+    #   text = "CPE Form"
 
-    [[params.hero.links]]
-      link = "https://docs.google.com/forms/d/e/1FAIpQLScSveGPntHHofW_47WZkZbIEfrx4AxW-PtKshDlmaVHMbHWuA/viewform"
-      text = "Attendee Survey"
+    # [[params.hero.links]]
+    #   link = "https://docs.google.com/forms/d/e/1FAIpQLScSveGPntHHofW_47WZkZbIEfrx4AxW-PtKshDlmaVHMbHWuA/viewform"
+    #   text = "Attendee Survey"
 
   # About section
   [params.about]
@@ -169,7 +169,7 @@ She worked at Pied Piper for years until they went belly up."""
 
     # About section
   [params.schedule]
-    enable = true
+    enable = false
     title = "Schedule"
     subtitle = "One day, one track"
     endpoint = "Prepare<br>for<br>2019!"
@@ -440,7 +440,7 @@ Nick currently performs offensive security related engagements at Rapid7."""
 
   # Client section
     [params.sponsors_list]
-      enable = true
+      enable = false
       # Possibility to center items
       center = true
       # Optional sponsor title specifying the involvement
