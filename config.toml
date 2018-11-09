@@ -289,7 +289,7 @@ In the age of continuous delivery, and "third party dependency" has taken on a n
 
   # Team section
   [params.speakers]
-    enable = true
+    enable = false
     # Possibility to center items
     #center = true
     title = "Our amazing speakers"
