@@ -94,8 +94,6 @@ googleAnalytics = ""
     title = "About BSides"
     text = '''
 Each BSides is a **community-driven** framework for building events for and by information security community members.  The goal is to expand the spectrum of conversation beyond the traditional confines of space and time.  It creates opportunities for individuals to both present and participate in an intimate atmosphere that encourages collaboration. It is an intense event with discussions, demos, and interaction from participants. It is where conversations for the next-big-thing are happening.
-
-This year, our theme is **Standing on the Shoulders of Giants**. We're a new group of organizers building upon the work of the previous organizers to make this conference happen. We'd like our presentations to reflect this as well. This can range from how you used someone else's tools for success through taking over a conference run by others.
 '''
 
   # Team section
