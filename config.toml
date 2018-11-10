@@ -73,20 +73,20 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "May 5 2018 - KSU Center, Kennesaw"
+    title = "May 4 2019 - KSU Center, Kennesaw"
     subtitle = "BSides Atlanta"
 
     #[[params.hero.links]]
     #  link = "https://easychair.org/cfp/bsidesatl2018"
     #  text = "Submit a Presentation"
 
-    [[params.hero.links]]
-      link = "bsidesatl.2018.cpe.form.pdf"
-      text = "CPE Form"
+    # [[params.hero.links]]
+    #   link = "bsidesatl.2018.cpe.form.pdf"
+    #   text = "CPE Form"
 
-    [[params.hero.links]]
-      link = "https://docs.google.com/forms/d/e/1FAIpQLScSveGPntHHofW_47WZkZbIEfrx4AxW-PtKshDlmaVHMbHWuA/viewform"
-      text = "Attendee Survey"
+    # [[params.hero.links]]
+    #   link = "https://docs.google.com/forms/d/e/1FAIpQLScSveGPntHHofW_47WZkZbIEfrx4AxW-PtKshDlmaVHMbHWuA/viewform"
+    #   text = "Attendee Survey"
 
   # About section
   [params.about]
@@ -94,8 +94,6 @@ googleAnalytics = ""
     title = "About BSides"
     text = '''
 Each BSides is a **community-driven** framework for building events for and by information security community members.  The goal is to expand the spectrum of conversation beyond the traditional confines of space and time.  It creates opportunities for individuals to both present and participate in an intimate atmosphere that encourages collaboration. It is an intense event with discussions, demos, and interaction from participants. It is where conversations for the next-big-thing are happening.
-
-This year, our theme is **Standing on the Shoulders of Giants**. We're a new group of organizers building upon the work of the previous organizers to make this conference happen. We'd like our presentations to reflect this as well. This can range from how you used someone else's tools for success through taking over a conference run by others.
 '''
 
   # Team section
@@ -169,7 +167,7 @@ She worked at Pied Piper for years until they went belly up."""
 
     # About section
   [params.schedule]
-    enable = true
+    enable = false
     title = "Schedule"
     subtitle = "One day, one track"
     endpoint = "Prepare<br>for<br>2019!"
@@ -289,7 +287,7 @@ In the age of continuous delivery, and "third party dependency" has taken on a n
 
   # Team section
   [params.speakers]
-    enable = true
+    enable = false
     # Possibility to center items
     #center = true
     title = "Our amazing speakers"
@@ -440,7 +438,7 @@ Nick currently performs offensive security related engagements at Rapid7."""
 
   # Client section
     [params.sponsors_list]
-      enable = true
+      enable = false
       # Possibility to center items
       center = true
       # Optional sponsor title specifying the involvement
