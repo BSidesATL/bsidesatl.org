@@ -76,9 +76,9 @@ googleAnalytics = ""
     title = "May 4 2019 - KSU Center, Kennesaw"
     subtitle = "BSides Atlanta"
 
-    #[[params.hero.links]]
-    #  link = "https://easychair.org/cfp/bsidesatl2018"
-    #  text = "Submit a Presentation"
+    [[params.hero.links]]
+      link = "https://easychair.org/conferences/?conf=bsidesatl2019"
+      text = "Submit a Presentation"
 
     # [[params.hero.links]]
     #   link = "bsidesatl.2018.cpe.form.pdf"
