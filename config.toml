@@ -76,9 +76,9 @@ googleAnalytics = ""
     title = "May 4 2019 - KSU Center, Kennesaw"
     subtitle = "BSides Atlanta"
 
-    #[[params.hero.links]]
-    #  link = "https://easychair.org/cfp/bsidesatl2018"
-    #  text = "Submit a Presentation"
+    [[params.hero.links]]
+      link = "https://easychair.org/conferences/?conf=bsidesatl2019"
+      text = "Submit a Presentation"
 
     # [[params.hero.links]]
     #   link = "bsidesatl.2018.cpe.form.pdf"
@@ -94,6 +94,16 @@ googleAnalytics = ""
     title = "About BSides"
     text = '''
 Each BSides is a **community-driven** framework for building events for and by information security community members.  The goal is to expand the spectrum of conversation beyond the traditional confines of space and time.  It creates opportunities for individuals to both present and participate in an intimate atmosphere that encourages collaboration. It is an intense event with discussions, demos, and interaction from participants. It is where conversations for the next-big-thing are happening.
+
+Important Dates:
+
+- Friday, February 1 - CFP opens
+- Thursday, March 7 - CFP closes
+- Friday, March 8 - CFP Review process begins
+- Friday, March 29 - CFP Review process closes
+- Monday, April 1 - CFP Decisions sent out
+
+Ticket availability will be announced soon!
 '''
 
   # Team section
