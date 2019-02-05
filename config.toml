@@ -17,7 +17,7 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "bsides atl"
+  name = "bsidesatl"
   description = "Bsides Atlanta"
 
   # Link custom assets relative to /static
@@ -48,7 +48,7 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "BSides ATL"
+    brand = "BSidesATL"
     # Optional logo as brand stored in img/
     logo = "logo.svg"
     about = "About"
@@ -91,7 +91,7 @@ googleAnalytics = ""
   # About section
   [params.about]
     enable = true
-    title = "About BSides"
+    title = "About Security BSides"
     text = '''
 Each BSides is a **community-driven** framework for building events for and by information security community members.  The goal is to expand the spectrum of conversation beyond the traditional confines of space and time.  It creates opportunities for individuals to both present and participate in an intimate atmosphere that encourages collaboration. It is an intense event with discussions, demos, and interaction from participants. It is where conversations for the next-big-thing are happening.
 
@@ -105,75 +105,6 @@ Important Dates:
 
 Ticket availability will be announced soon!
 '''
-
-  # Team section
-  [params.team]
-    enable = false
-    # Possibility to center items
-    #center = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
-
-    # All team member's pictures are stored under 'static/img/team'.
-    # Replace them with your own too.
-    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
-    [[params.team.members]]
-      img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
-      ]
-      # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.team.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.team.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-  # Portfolio section
-  [params.portfolio]
-    enable = false
-    # All projects defined in their own files. You can find example projects
-    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
-    # at the root of this Hugo site.
-    # For more informtion take a look at the README.
-    title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-
-    [params.portfolio.modal]
-      client = "Client"
-      date = "Date"
-      category = "Category"
-      buttonText = "Close project"
-
 
     # About section
   [params.schedule]
@@ -448,7 +379,7 @@ Nick currently performs offensive security related engagements at Rapid7."""
 
   # Client section
     [params.sponsors_list]
-      enable = false
+      enable = true
       # Possibility to center items
       center = true
       # Optional sponsor title specifying the involvement
@@ -470,76 +401,19 @@ Nick currently performs offensive security related engagements at Rapid7."""
       [[params.sponsors]]
         logo = "netkoth.png"
         link = "https://netkoth.github.io"
-      [[params.sponsors]]
-        logo = "cybersecjobs.png"
-        link = "https://cybersecjobs.com"
-      [[params.sponsors]]
-        logo = "aarons.png"
-        link = "https://www.aarons.com/"
-      [[params.sponsors]]
-        logo = "critical.path.security.png"
-        link = "https://www.criticalpathsecurity.com/"
-      [[params.sponsors]]
-        logo = "nccgroup.png"
-        link = "https://www.nccgroup.trust/us/"
+#      [[params.sponsors]]
+#        logo = "cybersecjobs.png"
+#        link = "https://cybersecjobs.com"
+#      [[params.sponsors]]
+#        logo = "aarons.png"
+#        link = "https://www.aarons.com/"
+#      [[params.sponsors]]
+#        logo = "critical.path.security.png"
+#        link = "https://www.criticalpathsecurity.com/"
+#      [[params.sponsors]]
+#        logo = "nccgroup.png"
+#        link = "https://www.nccgroup.trust/us/"
 
-
-  # Contact section
-  [params.contact]
-    enable = false
-    title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
-    buttonText = "Send message"
-
-    # Since this template is static, the contact form uses www.formspree.io as a
-    # proxy. The form makes a POST request to their servers to send the actual
-    # email. Visitors can send up to a 1000 emails each month for free.
-    #
-    # What you need to do for the setup?
-    #
-    # - set your email address under 'email' below
-    # - upload the generated site to your server
-    # - send a dummy email yourself to confirm your account
-    # - click the confirm link in the email from www.formspree.io
-    # - you're done. Happy mailing!
-
-    # It is possible to substitute formspring with other providers
-    # as an example the mailout plugin from caddy.
-    # Provide the post URL for the form and depending on the provider
-    # add some custom JS script to finish the implementation.
-    # postURL = "https://example.com/mailout/"
-
-    email = "your@email.com"
-
-    # Success and error message overwrite for async contact form
-    #thanks = "Thank you for awesomely contacting us."
-    #error = "Message could not be send. Please contact us at mail@example.com instead."
-
-    # 'warning' defines error messages for invalid inputs
-    [params.contact.form.name]
-      text = "Your Name *"
-      warning = "Please enter your name."
-
-    [params.contact.form.email]
-      text = "Your Email *"
-      warning = "Please enter your email address."
-
-    [params.contact.form.phone]
-      text = "Your Phone *"
-      warning = "Please enter your phone number."
-
-    [params.contact.form.message]
-      text = "Your Message *"
-      warning = "Please enter a message."
-
-      # Add optional form fields to identify contact forms
-      #[[params.contact.form.hidden]]
-      #  name = "someID"
-      #  value = "example.com"
-      #
-      #[[params.contact.form.hidden]]
-      # Special values for name such as "page" and "site" will be autofilled
-      #  name = "page"
 
   # Footer section
   [params.footer]
@@ -554,18 +428,8 @@ Nick currently performs offensive security related engagements at Rapid7."""
     [[params.footer.social]]
       icon = "fa-github"
       link = "https://github.com/bsidesatl"
-      title = "Twitter"
+      title = "Github"
 
-#    [[params.footer.social]]
-#      icon = "fa-facebook"
-#      link = "#"
-#      title = "Facebook"
-#
-#    [[params.footer.social]]
-#      icon = "fa-linkedin"
-#      link = "#"
-#      title = "LinkedIn"
-#
 
   [params.codeofconduct]
     enable = true
