@@ -8,10 +8,124 @@
       </div>
     </div>
     <div class="row">
+      <div class="col-lg-12 text-center">
+        <h3 class="section-heading">Diamond</h3>
+      </div>
+    </div>
+    <div class="row">
       <div class="col-lg-12">
 
-      {{ range .Site.Params.sponsors }}
-        <div class="col-md-3 col-sm-6 col">
+      {{ range .Site.Params.sponsors.diamond }}
+        <div class="col-md-6 col-sm-6 col">
+          {{ $url := printf "img/logos/%s" .logo }}
+          {{ if .link }}
+            <a href="{{ .link }}" target="_blank">
+              <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
+            </a>
+          {{ else }}
+            <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
+          {{ end }}
+        </div>
+      {{ end }}
+      {{ if not .Site.Params.sponsors.diamond }}
+        <div class="col-md-12 col-sm-12 col" style="text-align: center">
+          <a href="bsidesatl-sponsor-2019.pdf">Your company logo here</a>
+        </div>
+      {{ end }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h3 class="section-heading">Gold</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12" style="text-align: center">
+
+      {{ range .Site.Params.sponsors.gold }}
+        <div class="col-md-4 col-sm-4 col">
+          {{ $url := printf "img/logos/%s" .logo }}
+          {{ if .link }}
+            <a href="{{ .link }}" target="_blank">
+              <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
+            </a>
+          {{ else }}
+            <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
+          {{ end }}
+        </div>
+      {{ end }}
+      {{ if not .Site.Params.sponsors.gold }}
+        <div class="col-md-12 col-sm-12 col" style="text-align: center">
+          <a href="bsidesatl-sponsor-2019.pdf">Your company logo here</a>
+        </div>
+      {{ end }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h3 class="section-heading">Silver</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+
+      {{ range .Site.Params.sponsors.silver }}
+        <div class="col-md-6 col-sm-6 col">
+          {{ $url := printf "img/logos/%s" .logo }}
+          {{ if .link }}
+            <a href="{{ .link }}" target="_blank">
+              <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
+            </a>
+          {{ else }}
+            <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
+          {{ end }}
+        </div>
+      {{ end }}
+      {{ if not .Site.Params.sponsors.silver }}
+        <div class="col-md-12 col-sm-12 col" style="text-align: center">
+          <a href="bsidesatl-sponsor-2019.pdf">Your company logo here</a>
+        </div>
+      {{ end }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h3 class="section-heading">Bronze</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+
+      {{ range .Site.Params.sponsors.bronze }}
+        <div class="col-md-6 col-sm-6 col">
+          {{ $url := printf "img/logos/%s" .logo }}
+          {{ if .link }}
+            <a href="{{ .link }}" target="_blank">
+              <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
+            </a>
+          {{ else }}
+            <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
+          {{ end }}
+        </div>
+      {{ end }}
+      {{ if not .Site.Params.sponsors.bronze }}
+        <div class="col-md-12 col-sm-12 col" style="text-align: center">
+          <a href="bsidesatl-sponsor-2019.pdf">Your company logo here</a>
+        </div>
+      {{ end }}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h3 class="section-heading">Events</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+
+      {{ range .Site.Params.sponsors.event }}
+        <div class="col-md-4 col-sm-4 col">
           {{ $url := printf "img/logos/%s" .logo }}
           {{ if .link }}
             <a href="{{ .link }}" target="_blank">
