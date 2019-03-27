@@ -191,18 +191,21 @@ A wait list will be available when Wave 2 completes. We will do our best to get 
       # All the sponsors' logos are stored under 'static/img/logos'.
       # Replace them with your sponsors's logos.
       # Suggestion: .svg in the size of 280px*80px looks good
-      [[params.sponsors]]
+      [[params.sponsors.gold]]
         logo = "ksu-is.png"
         link = "http://coles.kennesaw.edu/information-systems/"
-      [[params.sponsors]]
+      [[params.sponsors.event]]
         logo = "foxpick.jpg"
         link = "https://twitter.com/Fox_Pick"
-      [[params.sponsors]]
+      [[params.sponsors.event]]
         logo = "cg-silvers.png"
         link = "https://www.cgsilvers.com/"
-      [[params.sponsors]]
+      [[params.sponsors.event]]
         logo = "netkoth.png"
         link = "https://netkoth.github.io"
+      [[params.sponsors.silver]]
+        logo = "coalfire.png"
+        link = "https://www.coalfire.com/"
 
   # Footer section
   [params.footer]
