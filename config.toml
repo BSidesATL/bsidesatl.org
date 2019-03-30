@@ -207,6 +207,9 @@ A wait list will be available when Wave 2 completes. We will do our best to get 
       [[params.sponsors.silver]]
         logo = "coalfire.png"
         link = "https://www.coalfire.com/"
+      [[params.sponsors.silver]]
+        logo = "kudelskisecurity.png"
+        link = "https://www.kudelskisecurity.com/"
 
   # Footer section
   [params.footer]
