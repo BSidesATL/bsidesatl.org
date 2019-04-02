@@ -139,5 +139,29 @@
 
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h3 class="section-heading">In-Kind</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+
+      {{ range .Site.Params.sponsors.inkind }}
+        <div class="col-md-4 col-sm-4 col">
+          {{ $url := printf "img/logos/%s" .logo }}
+          {{ if .link }}
+            <a href="{{ .link }}" target="_blank">
+              <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
+            </a>
+          {{ else }}
+            <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
+          {{ end }}
+        </div>
+      {{ end }}
+
+      </div>
+    </div>
   </div>
 </section>
