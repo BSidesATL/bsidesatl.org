@@ -1001,6 +1001,10 @@ ul.social-buttons li a:active {
     opacity: 0;
 }
 
+.top-buffer {
+    margin-top: 20px;
+}
+
 ::-moz-selection {
     text-shadow: none;
     background: #282260;
@@ -1022,3 +1026,4 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #282260;
 }-
+
