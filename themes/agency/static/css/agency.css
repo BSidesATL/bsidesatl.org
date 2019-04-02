@@ -56,6 +56,10 @@ h6 {
     font-weight: 700;
 }
 
+.top-buffer {
+    margin-top: 40px;
+}
+
 .img-centered {
     margin: 0 auto;
 }
@@ -999,11 +1003,6 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
-}
-
-.top-buffer {
-    margin-top: 20px;
-    padding-top: 20px;
 }
 
 ::-moz-selection {
