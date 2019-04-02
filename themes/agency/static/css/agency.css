@@ -1003,6 +1003,7 @@ ul.social-buttons li a:active {
 
 .top-buffer {
     margin-top: 20px;
+    padding-top: 20px;
 }
 
 ::-moz-selection {
