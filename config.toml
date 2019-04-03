@@ -204,12 +204,18 @@ A wait list will be available when Wave 2 completes. We will do our best to get 
       [[params.sponsors.event]]
         logo = "netkoth.png"
         link = "https://netkoth.github.io"
+      [[params.sponsors.event]]
+        logo = "abe.png"
+        link = "http://www.abesap.com"
       [[params.sponsors.silver]]
         logo = "coalfire.png"
         link = "https://www.coalfire.com/"
       [[params.sponsors.silver]]
         logo = "kudelskisecurity.png"
         link = "https://www.kudelskisecurity.com/"
+      [[params.sponsors.inkind]]
+        logo = "efga.png"
+        link = "https://ef-georgia.org"
 
   # Footer section
   [params.footer]
