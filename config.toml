@@ -195,6 +195,9 @@ A wait list will be available when Wave 2 completes. We will do our best to get 
       [[params.sponsors.gold]]
         logo = "ksu-is.png"
         link = "http://coles.kennesaw.edu/information-systems/"
+      [[params.sponsors.gold]]
+        logo = "nsa.png"
+        link = "https://www.intelligencecareers.gov/nsa"
       [[params.sponsors.event]]
         logo = "foxpick.jpg"
         link = "https://twitter.com/Fox_Pick"
