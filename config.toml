@@ -222,9 +222,14 @@ A wait list will be available when Wave 2 completes. We will do our best to get 
       [[params.sponsors.bronze]]
         logo = "nccgroup.png"
         link = "https://www.nccgroup.trust/us/"
+      [[params.sponsors.bronze]]
+        logo = "redseer.png"
       [[params.sponsors.inkind]]
         logo = "efga.png"
         link = "https://ef-georgia.org"
+      [[params.sponsors.inkind]]
+        logo = "nostarchpress.png"
+        link = "https://nostarch.com"
 
   # Footer section
   [params.footer]
