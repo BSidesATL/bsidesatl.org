@@ -224,6 +224,7 @@ A wait list will be available when Wave 2 completes. We will do our best to get 
         link = "https://www.nccgroup.trust/us/"
       [[params.sponsors.bronze]]
         logo = "redseer.png"
+        link = "https://www.linkedin.com/company/red-seer-inc"
       [[params.sponsors.inkind]]
         logo = "efga.png"
         link = "https://ef-georgia.org"
