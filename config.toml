@@ -216,6 +216,9 @@ A wait list will be available when Wave 2 completes. We will do our best to get 
       [[params.sponsors.silver]]
         logo = "aarons.png"
         link = "https://www.aarons.com/"
+      [[params.sponsors.silver]]
+        logo = "help-systems.png"
+        link = "https://www.helpsystems.com/"
       [[params.sponsors.bronze]]
         logo = "nccgroup.png"
         link = "https://www.nccgroup.trust/us/"
