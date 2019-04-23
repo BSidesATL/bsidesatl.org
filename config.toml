@@ -278,7 +278,7 @@ Nathan has presented his research at global security events including Black Hat,
     [[params.speakers.members]]
       name = "Xavier Ashe"
       position = "Indicators of Crap"
-      bio = """Xavier Ashe is currently the VP of Security Engineering at SunTrus.  He is a Georgia Institute of Technology alumnus and has 25 years of hands-on experience in information security.  Working for various security vendors and consulting firms for the last 15 years, including IBM, Gartner, and Carbon Black, Xavier has been focused on helping secure companies of all sizes.  Xavier was the first hire at the startup Drawbridge Networks, where he was instrumental in bringing the first microsegmentation solution for servers and workstations to market.  Mr. Ashe holds many industry certifications, including CISM, CISSP, ITIL, SOA, and others."""
+      bio = """Xavier Ashe is currently the VP of Security Engineering at SunTrust.  He is a Georgia Institute of Technology alumnus and has 25 years of hands-on experience in information security.  Working for various security vendors and consulting firms for the last 15 years, including IBM, Gartner, and Carbon Black, Xavier has been focused on helping secure companies of all sizes.  Xavier was the first hire at the startup Drawbridge Networks, where he was instrumental in bringing the first microsegmentation solution for servers and workstations to market.  Mr. Ashe holds many industry certifications, including CISM, CISSP, ITIL, SOA, and others."""
       social = [
        ["fa-twitter", "https://twitter.com/xavierashe"],
        ["fa-linkedin", "https://www.linkedin.com/in/xavierashe"],
