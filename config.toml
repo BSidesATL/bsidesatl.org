@@ -177,6 +177,114 @@ A wait list will be available when Wave 2 completes. We will do our best to get 
        ["fa-twitter", "https://twitter.com/daveshackleford"],
        ["fa-twitter", "https://twitter.com/voodoosecurity"],
       ]
+    [[params.speakers.members]]
+      name = "Amber Welch"
+      position = "Data Access Rights Exploits under New Privacy Laws"
+      bio = """Until she’s accepted for a Mars mission, Amber Welch is pursuing the advancement of personal information privacy and data protection as a Privacy Technical Lead for Schellman & Company. Amber has been assessing corporate privacy compliance programs for the past year and prior to that, managed security and privacy governance for a suite of SaaS products. She has previously worked in companies creating ERP, CRM, event planning, and biologics manufacturing software."""
+      social = [
+       ["fa-twitter", "https://twitter.com/MsAmberWelch"],
+      ]
+    [[params.speakers.members]]
+      name = "Ben Knowles"
+      position = "Preparing for your Cybersecurity Career"
+      bio = """Ben S. Knowles is a professional computer security consultant and educator in the Atlanta, Georgia, USA area. Ben presents at local groups and conferences on analysis, forensics, and security education, leads Community classes on defense, response, and analysis with the SANS Institute and has bugs and patches in a few public tools. Ben is a consultant on the incident response team of a global firm."""
+      social = [
+       ["fa-twitter", "https://twitter.com/dfirnotes"],
+      ]
+    [[params.speakers.members]]
+      name = "Brian Contos"
+      position = "HACKERS, HOOLIGANS, HEISTS, & HISTORY"
+      bio = """Brian Contos is the CISO & VP, Technology Innovation at Verodin. He is a seasoned executive with over two decades of experience in the cybersecurity industry as well as a board advisor, entrepreneur, and author. After getting his start in cybersecurity with the Defense Information Systems Agency (DISA) and later Bell Labs, he began the process of building cybersecurity startups and taking multiple companies through successful IPOs and acquisitions, including Riptech, ArcSight, Imperva, McAfee, and Solera Networks. Brian has worked in over 50 countries across six continents. He is a board advisor for Cylance, JASK, Appdome, and the University of South Florida. He has authored several books, his latest with the former Deputy Director of the NSA, spoken at leading security events globally such as Black Hat, RSA, and BSides, and has been on C-SPAN, Fox, CNBC, CBS News, Bloomberg, and many others. Brian is a Distinguished Fellow with the Ponemon Institute and an Official Member of the Forbes Technology Council. Brian was recently featured in a cyberwar documentary alongside General Michael Hayden (former Director NSA and CIA)."""
+      social = [
+       ["fa-twitter", "https://twitter.com/briancontos"],
+       ["fa-linkedin", "https://www.linkedin.com/in/briancontos/"],
+      ]
+    [[params.speakers.members]]
+      name = "Hudson Bush"
+      position = "Too Small to Fail: Securing Small and Medium Businesses"
+      bio = """Hudson Bush is a Security Architect that injects Threat Modeling into everything he does. He mostly works with Government Regulatory Compliance, Risk Management, and Business Impact Analysis. His goal is to teach others about the mistakes that he has made so that others don’t have to repeat them."""
+      social = [
+       ["fa-twitter", "https://twitter.com/HomeBrewedSec"],
+      ]
+    [[params.speakers.members]]
+      name = "Ismaelle Vixsama"
+      position = "Cyberstalking: A Privacy Issue"
+      bio = """Ismaelle is an Information Security Governance and Strategy professional with experience working with Security Governance programs across Financial Services and Public Sector. Her compliance specialties include ISO 2700X, NIST, GLBA and FFIEC. Ismaelle holds a Master’s of Science in Cybersecurity, CISM and ISO 27001 Lead Implementer certifications.
+
+In her spare time, she enjoys traveling, watching anime and spending time with her young nieces and nephews. She is also a mentor and an advocate for women and non-binary people in technology and cybersecurity."""
+      social = [
+       ["fa-linkedin", "www.linkedin.com/in/ismaellevixsama"],
+      ]
+    [[params.speakers.members]]
+      name = "Jason Hill"
+      position = "How to create a Compliance baseline and simplify compliance forever"
+      bio = """Mr. Hill’s accomplishments include acting information security chief of one of the largest aluminum producers in the world and Information Assurance lead for a $180M infrastructure revamp for a Department of Defense entity. Training and consulting clients have ranged large and small included dozens of Managed Security Services Providers, Fortune 500 companies, NASA and other US government institutions.  Mr. Hill has had cybersecurity consulting responsibilities for a variety of clients encompassing the globe utilizing the NIST-RMF, NIST- CSF, and ISO 27001 frameworks as well as his experience as a PCI QSA. Having a background in system architecture and design Mr. Hill brings a uniquely refreshing perspective on information security which provides clients and partners value beyond industry norms."""
+    [[params.speakers.members]]
+      name = "Joe Gray"
+      position = "Social Forensication: A Multidisciplinary Approach to Successful Social Engineering"
+      bio = """Joe Gray joined the U.S. Navy directly out of High School and served for 7 years as a Submarine Navigation Electronics Technician. Joe is currently a Senior Security Architect and maintains his own blog and podcast called Advanced Persistent Security. In his spare time, Joe enjoys attending information security conferences, contributing blogs to various outlets, training in Brazilian Jiu Jitsu, and flying his drone. Joe is the inaugural winner of the DerbyCon Social Engineering Capture the Flag (SECTF) and was awarded a DerbyCon Black Badge. Joe is a regular Forbes contributor and has contributed material for the likes of AlienVault, ITSP Magazine, CSO Online, and Dark Reading. Joe is an IBM Recognized Speaker/Presenter."""
+      social = [
+       ["fa-twitter", "https://twitter.com/c_3pjoe"],
+      ]
+    [[params.speakers.members]]
+      name = "Nathan Hamiel"
+      position = "Agile Security for Modern Threats"
+      bio = """Nathan Hamiel is Head of Cybersecurity Research at Kudelski Security, an international security company providing innovative and tailored solutions to enterprises and public-sector clients. Nathan works in the innovation group defining the future of services and products for the company. A security veteran with a strong focus on software security, he has spent his nearly 20-year career helping customers around the world solve complex security challenges.
+
+Nathan has presented his research at global security events including Black Hat, DEF CON, HOPE, ShmooCon, SecTor, ToorCon and many others. He is also a member of the Black Hat review board where he evaluates research for inclusion into the various conferences around the world."""
+      social = [
+       ["fa-twitter", "https://twitter.com/nathanhamiel"],
+       ["fa-linkedin", "https://www.linkedin.com/in/nathanhamiel/"],
+      ]
+    [[params.speakers.members]]
+      name = "Ray Kelly"
+      position = "Mobile App Vulnerabilities – The Bad, The Worse And The Ugly"
+      bio = """Ray Kelly is an internet security professional with over twenty years of development experience, twelve of which has focused on the internet security space. Ray has been a key player in multiple successfully acquired cyber security start-ups. He was the Lead Developer and Business Unit Director for WebInspect with SPI Dynamics which is an industry leading application security scanner. Currently Ray is a Application Security Architect for Micro Focus where he contributes to security research, business vision and customer success"""
+      social = [
+       ["fa-twitter", "https://vbisbest"],
+      ]
+    [[params.speakers.members]]
+      name = "Ryan Wilson"
+      position = "Continuous Monitoring on a Budget: OpenWRT, Python, Documented Analytic Tradecraft, and the Cloud"
+      bio = """Ryan is a cybersecurity professional, instructor, and entrepreneur. He has served the U.S. Government with his expertise for over 10 years. More recently, he has started consulting with small businesses and families to help them protect themselves from the cyberspace things that keep them up at night. When not nerding around (he really likes programming!), he loves shaping his children (a.k.a. parenting), kayaking, camping, and biking. And he recently achieved a childhood dream of computerizing his Christmas light display and syncing them to music with his Raspberry Pi. Soli Deo Gloria."""
+      social = [
+       ["fa-twitter", "https://twitter.com/spotlightcybsec"],
+      ]
+    [[params.speakers.members]]
+      name = "Tony Drake"
+      position = "Incident Response for the Overwhelmed, Understaffed and Unprepared"
+      bio = """Tony Drake has over 25 years of experience in various areas of information security and system administration including certifications in Pen Testing, Incident Response and Forensics.
+"""
+    [[params.speakers.members]]
+      name = "Vishruta Rudresh"
+      position = "Under the skin: Privacy engineering of medical devices"
+      bio = """Vishruta Rudresh is a Senior Cybersecurity Researcher at Kudelski Security focusing on fundamental new approaches to IoT and OT environment security, including but not limited to machine learning, edge device decision making, and low power environment security. She has been working in the Information Technology industry since 2011 specializing in IoT security, malware reverse engineering, system and application administration, incident response, digital forensics, and mobile security and has a master’s degree in Information Technology- Information Security from Carnegie Mellon University."""
+      social = [
+       ["fa-linkedin", "https://www.linkedin.com/in/vishrutag/"],
+      ]
+    [[params.speakers.members]]
+      name = "Wes Lambert"
+      position = "Alexa Knows My Kids Better Than I Do"
+      bio = """Wes Lambert is a Senior Engineer at Security Onion Solutions, where he helps customers to implement enterprise security monitoring solutions and better understand their computer networks.  He is an active supporter of open source software projects, and loves helping others to solve problems with completely free and easily deployable tools.
+"""
+      social = [
+       ["fa-twitter", "https://twitter.com/therealwlambert"],
+      ]
+    [[params.speakers.members]]
+      name = "Wes Widner"
+      position = "The Sound of Evil - An exploration of the audio security landscape"
+      bio = """One of the first dates with my wife was spent overclocking a Gateway 2000 66Mhz to 175Mhz. I knew she was the one as the under-cooled chip glowed red hot and set off the smoke alarm. These days, I'm an Engineering Manager at CrowdStrike, a leading cybersecurity company. Hit me up if you're interested in joining our team!"""
+      social = [
+       ["fa-twitter", "https://twitter.com/kai5263499"],
+      ]
+    [[params.speakers.members]]
+      name = "Xavier Ashe"
+      position = "Indicators of Crap"
+      bio = """Xavier Ashe is currently the VP of Security Engineering at SunTrus.  He is a Georgia Institute of Technology alumnus and has 25 years of hands-on experience in information security.  Working for various security vendors and consulting firms for the last 15 years, including IBM, Gartner, and Carbon Black, Xavier has been focused on helping secure companies of all sizes.  Xavier was the first hire at the startup Drawbridge Networks, where he was instrumental in bringing the first microsegmentation solution for servers and workstations to market.  Mr. Ashe holds many industry certifications, including CISM, CISSP, ITIL, SOA, and others."""
+      social = [
+       ["fa-twitter", "https://twitter.com/xavierashe"],
+       ["fa-linkedin", "https://www.linkedin.com/in/xavierashe"],
+      ]
 
 
 

@@ -11,8 +11,10 @@
       {{ range .Site.Params.speakers.members }}
         <div class="col-sm-4 col">
           <div class="speakers-member">
+            {{ if .img }}
             {{ $url := printf "img/speakers/%s" .img }}
             <img src="{{ $url | absURL }}" class="img-responsive img-circle" alt="{{ .name }}">
+            {{ end }}
             <h3>{{ .name | markdownify }}</h3>
             {{ with .company }}
             <h5 class="report">{{ . | markdownify }}</h5>
