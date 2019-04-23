@@ -149,7 +149,6 @@ A wait list will be available when Wave 2 completes. We will do our best to get 
     #  description = "Provided by ?"
 
     [[params.schedule.events]]
-      img = "speakers/dave.shackleford.jpg"
       date = ""
       title = "Keynote: Software-Defined Everything, and What That Means to Security"
       speaker = "Dave Shackleford"
