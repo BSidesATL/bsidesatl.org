@@ -167,7 +167,6 @@ A wait list will be available when Wave 2 completes. We will do our best to get 
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.speakers.members]]
-      img = "dave.shackleford.jpg"
       name = "Dave Shackleford"
       position = "Keynote: Software-Defined Everything, and What That Means to Security"
       company = "Voodoo Security"
