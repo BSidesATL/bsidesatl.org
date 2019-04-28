@@ -7,36 +7,121 @@
         <h3 class="section-subheading text-muted">{{ with .Site.Params.schedule.subtitle }}{{ . | markdownify }}{{ end }}</h3>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-12">
-        <ul class="timeline">
 
-          {{ range $i, $e := .Site.Params.schedule.events }}
-            <li {{ if (not (modBool $i 2)) }}class="timeline-inverted" {{ end }}>
-              <div class="timeline-image">
-                {{ $url := printf "img/%s" .img }}
-                <img class="img-circle img-responsive" src="{{ $url | absURL }}" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>{{ .date }}</h4>
-                  <h4 class="subheading">{{ .title | markdownify }}</h4>
-                  <h5>{{ .speaker }}</h5>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">{{ .description  | markdownify }}</p>
-                </div>
-              </div>
-            </li>
-          {{ end }}
-
-          <li class="timeline-inverted">
-            <div class="timeline-image">
-              <h4>{{ with .Site.Params.schedule.endpoint }}{{ . | markdownify }}{{ end }}</h4>
-            </div>
-          </li>
-        </ul>
+    <div class="row" style="border-bottom: 1px solid gray">
+      <div class="col-md-2 visible-md-block visible-lg-block">
+        <b>8:45</b>
       </div>
+      <div class="col-md-2 visible-xs-block visible-sm-block text-center">
+        <b>8:45</b>
+      </div>
+      <div class="col-md-10">
+        <div class="text-center">
+          <h4>Opening remarks</h4>
+        </div>
+        <div class="text-center">
+          Organizers - <i>Security Track</i>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" style="border-bottom: 1px solid gray">
+      <div class="col-md-2 visible-md-block visible-lg-block">
+        <b>9:00</b>
+      </div>
+      <div class="col-md-2 visible-xs-block visible-sm-block text-center">
+        <b>9:00</b>
+      </div>
+      <div class="col-md-10">
+        <div class="text-center">
+          <h4>Keynote</h4>
+        </div>
+        <div class="text-center">
+          Dave Shackleford - <i>Security Track</i>
+        </div>
+        <div>
+          What do security teams need to know about software-defined infrastructure, and new capabilities we may gain from using them ourselves? What will be some of the critical skill sets for security professionals now and in the future as these technologies become ever-more pervasive? In this presentation, Dave will cover everything from virtualization to containers, software-defined networking to public cloud, with a breakdown of key areas to focus on for security teams and specific advice for different security roles and positions.
+        </div>
+      </div>
+    </div>
+
+    <div class="row" style="border-bottom: 1px solid gray">
+      <div class="col-md-2 visible-md-block visible-lg-block">
+        <b>10:00</b>
+      </div>
+      <div class="col-md-2 visible-xs-block visible-sm-block text-center">
+        <b>10:00</b>
+      </div>
+      <div class="col-md-3">
+        <div class="text-center">
+          <h4>Incident Response for the Overwhelmed, Understaffed and Unprepared</h4>
+        </div>
+        <div class="text-center">
+          Tony Drake - <i>Security Track</i>
+        </div>
+        <div>
+          The IR consultants always say the same thing about incident response "Have a Plan, Follow the Plan". In the military they say "The battle plan goes out the window when the bullets start flying". The fact of the matter is that incident response in the real world is more like the latter than the former. Everyone knows how to work an incident when everything is wrapped up in a tight little bow, the tools are deployed, the data is accessible, and everyone is in agreement on exactly what to do and how. This talk isn't about those incidents. This talk is about the incident that happens when you are a one man shop with no tools and no resources and you need to work things out in a hurry. In short, this talk attempts to deal with the human aspects of incident response, and how to be an incident responder, not how to do incident response. I discuss the human aspects of response, and how to cope with the stresses and complexities of incident response in a modern environment where nothing goes according to plan.
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="text-center">
+          <h4>The Sound of Evil  - An exploration of the audio security landscape</h4>
+        </div>
+        <div class="text-center">
+          Wes Widner - <i>Privacy Track</i>
+        </div>
+        <div>
+          Voice assistants are popping up everywhere. Many wonder and worry whether we are voluntarily wire tapping ourselves. Your Alexa or Google Assistant doesn't have to be a magical box that represents a possible security vulnerability in your home (or car). Come join me as we explore how voice assistants work. I'm a firm believer that you need to know how something works before you can truly secure it. Next, we'll explore the threat vectors that all voice assistants share. And finally, and how they can be protected.
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="text-center">
+          <h4>Hackers, Hooligans, Heists, &amp; History</h4>
+        </div>
+        <div class="text-center">
+         Brian Contos - <i>Policy Track</i>
+        </div>
+        <div>
+          This presentation is based on 20+ years in cybersecurity working across 50+ countries.  It will explore the real-life history and use cases of hackers, hooligans, and heists. From mechanical computers to the Internet, acts of sabotage, fraud, theft, and other nefarious undertakings have been conducted with low risk, minimal hurdles, and high reward. In some cases, attackers even receive safe harbor from prosecution. Bad actors ranging from insiders and hacktivists to cybercriminals and nation-states are motivated by money, politics, revenge, and ideology. We will translate the “who, how, and why” of cyberattacks. We will identify multiple “old school” and modern-day threat vectors and organize attacks by motives like sabotage and espionage. Each threat actor type will be explored in detail with real-life use cases and personal accountants. The examples used will illustrate the diversity in threats, methods, motivations, and organizational responses.
+        </div>
+      </div>
+    </div>
+
+    <div class="row" style="border-bottom: 1px solid gray">
+      <div class="col-md-2">
+        <b>10:00</b>
+      </div>
+      <div class="col-md-3">
+        <div class="text-center">
+          <h4></h4>
+        </div>
+        <div class="text-center">
+          - <i>Track</i>
+        </div>
+        <div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="text-center">
+          <h4></h4>
+        </div>
+        <div class="text-center">
+          - <i>Track</i>
+        </div>
+        <div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="text-center">
+          <h4></h4>
+        </div>
+        <div class="text-center">
+          - <i>Track</i>
+        </div>
+        <div>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
