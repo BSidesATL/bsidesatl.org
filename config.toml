@@ -133,27 +133,6 @@ A wait list will be available when Wave 2 completes. We will do our best to get 
     #endpoint = "Prepare<br>for<br>2019!"
     endpoint = "More<br>soon"
 
-    # The events will be listed from the top to the bottom.
-    # All images are stored under 'static/img/schedule'.
-    # Replace them with your own.
-#    [[params.schedule.events]]
-#      img = "bsides-square.png"
-#      date = "9am"
-#      title = "Doors open"
-#      description = "Registration, CTFs, and Lockpick Village are open at this time."
-
-    #[[params.schedule.events]]
-    #  img = "bagels.jpg"
-    #  date = "9am"
-    #  title = "Bagels and Coffee in the lobby"
-    #  description = "Provided by ?"
-
-    [[params.schedule.events]]
-      date = ""
-      title = "Keynote: Software-Defined Everything, and What That Means to Security"
-      speaker = "Dave Shackleford"
-      description = "What do security teams need to know about software-defined infrastructure, and new capabilities we may gain from using them ourselves? What will be some of the critical skill sets for security professionals now and in the future as these technologies become ever-more pervasive? In this presentation, Dave will cover everything from virtualization to containers, software-defined networking to public cloud, with a breakdown of key areas to focus on for security teams and specific advice for different security roles and positions."
-
   # Team section
   [params.speakers]
     enable = true
@@ -170,7 +149,7 @@ A wait list will be available when Wave 2 completes. We will do our best to get 
       name = "Dave Shackleford"
       position = "Keynote: Software-Defined Everything, and What That Means to Security"
       company = "Voodoo Security"
-      bio = """"""
+      bio = """Dave is the CEO and Principal Consultant with Voodoo Security, and has consulted with hundreds of organizations in the areas of security, regulatory compliance, and network architecture and engineering. Dave is also Lead Faculty at IANS, a SANS analyst, instructor, and course author, and a board member with the SANS Technology Institute. He is a VMware vExpert, and has extensive experience designing and configuring secure virtualized infrastructures. He's the author of the Sybex book ""Virtualization Security: Protecting Virtualized Environments"", leads the Atlanta chapter of the Cloud Security Alliance, and co-chairs the CSA Top Threats to Cloud Working Group. Dave has previously worked as CSO for Configuresoft, CTO for the Center for Internet Security, and has also worked as a security architect, analyst, and manager for several Fortune 500 companies."""
       social = [
        ["fa-twitter", "https://twitter.com/daveshackleford"],
        ["fa-twitter", "https://twitter.com/voodoosecurity"],
