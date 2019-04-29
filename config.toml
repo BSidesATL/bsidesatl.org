@@ -79,7 +79,7 @@ googleAnalytics = ""
     [[params.hero.links]]
       link = "https://goo.gl/forms/6EaIMdJqANC3ZSvm1"
       text = "Volunteer Signup"
-    
+
     [[params.hero.links]]
       link = "https://goo.gl/maps/vjM2rv9oibwf7Ajt5"
       text = "Directions"
@@ -181,6 +181,12 @@ In her spare time, she enjoys traveling, watching anime and spending time with h
       bio = """Joe Gray joined the U.S. Navy directly out of High School and served for 7 years as a Submarine Navigation Electronics Technician. Joe is currently a Senior Security Architect and maintains his own blog and podcast called Advanced Persistent Security. In his spare time, Joe enjoys attending information security conferences, contributing blogs to various outlets, training in Brazilian Jiu Jitsu, and flying his drone. Joe is the inaugural winner of the DerbyCon Social Engineering Capture the Flag (SECTF) and was awarded a DerbyCon Black Badge. Joe is a regular Forbes contributor and has contributed material for the likes of AlienVault, ITSP Magazine, CSO Online, and Dark Reading. Joe is an IBM Recognized Speaker/Presenter."""
       social = [
        ["fa-twitter", "https://twitter.com/c_3pjoe"],
+      ]
+    [[params.speakers.members]]
+      name = "Michael Anton"
+      position = "Blocks and Chains - Realities of Blockchain in the Enterprise"
+      bio = """Michael S. Anton is a Senior Product Manager at Kudelski Security, an international security company that provides innovative and tailored solutions to enterprises and public-sector clients.  He works within the company’s Innovation group, where his responsibility is to evaluate emerging technologies for product development – specifically focusing on DLT and IoT."""
+      social = [
       ]
     [[params.speakers.members]]
       name = "Nathan Hamiel"
