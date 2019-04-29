@@ -10,7 +10,7 @@
     <div class="row flexbox{{ if .Site.Params.speakers.center }} flexbox-center{{ end }}">
       {{ range .Site.Params.speakers.members }}
         <div class="col-sm-4 col">
-          <div class="speakers-member">
+          <div class="speakers-member" id="{{ .name | urlize }}">
             {{ if .img }}
             {{ $url := printf "img/speakers/%s" .img }}
             <img src="{{ $url | absURL }}" class="img-responsive img-circle" alt="{{ .name }}">
