@@ -76,25 +76,13 @@ googleAnalytics = ""
     title = "May 4 2019 - KSU Center, Kennesaw"
     subtitle = "BSides Atlanta"
 
-    #[[params.hero.links]]
-    #  link = "https://goo.gl/forms/6EaIMdJqANC3ZSvm1"
-    #  text = "Volunteer Signup"
-
     [[params.hero.links]]
       link = "https://goo.gl/maps/vjM2rv9oibwf7Ajt5"
       text = "Directions"
 
-    #[[params.hero.links]]
-    #  link = "https://ti.to/bsidesatl/bsidesatl2019/"
-    #  text = "Tickets"
-
-    # [[params.hero.links]]
-    #   link = "bsidesatl.2018.cpe.form.pdf"
-    #   text = "CPE Form"
-
-    # [[params.hero.links]]
-    #   link = "https://docs.google.com/forms/d/e/1FAIpQLScSveGPntHHofW_47WZkZbIEfrx4AxW-PtKshDlmaVHMbHWuA/viewform"
-    #   text = "Attendee Survey"
+    [[params.hero.links]]
+      link = "bsidesatl-2019-cpe-form.pdf"
+      text = "CPE Form"
 
   # About section
   [params.about]
