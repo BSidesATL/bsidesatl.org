@@ -191,7 +191,7 @@ Nathan has presented his research at global security events including Black Hat,
       position = "Mobile App Vulnerabilities – The Bad, The Worse And The Ugly"
       bio = """Ray Kelly is an internet security professional with over twenty years of development experience, twelve of which has focused on the internet security space. Ray has been a key player in multiple successfully acquired cyber security start-ups. He was the Lead Developer and Business Unit Director for WebInspect with SPI Dynamics which is an industry leading application security scanner. Currently Ray is a Application Security Architect for Micro Focus where he contributes to security research, business vision and customer success"""
       social = [
-       ["fa-twitter", "https://vbisbest"],
+       ["fa-twitter", "https://twitter.com/vbisbest"],
       ]
     [[params.speakers.members]]
       name = "Ryan Wilson"
