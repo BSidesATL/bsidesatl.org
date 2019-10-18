@@ -73,7 +73,7 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "May 4 2019 - KSU Center, Kennesaw"
+    title = "March 28 2020 - KSU Center, Kennesaw"
     subtitle = "BSides Atlanta"
 
   # About section
@@ -86,7 +86,7 @@ Each BSides is a **community-driven** framework for building events for and by i
 
     # About section
   [params.schedule]
-    enable = true
+    enable = false
     title = "Schedule"
     subtitle = "One day, endless entertainment"
     #endpoint = "Prepare<br>for<br>2019!"
@@ -94,7 +94,7 @@ Each BSides is a **community-driven** framework for building events for and by i
 
   # Team section
   [params.speakers]
-    enable = true
+    enable = false
     # Possibility to center items
     #center = true
     title = "Our amazing speakers"
@@ -242,54 +242,54 @@ Nathan has presented his research at global security events including Black Hat,
       # All the sponsors' logos are stored under 'static/img/logos'.
       # Replace them with your sponsors's logos.
       # Suggestion: .svg in the size of 280px*80px looks good
-      [[params.sponsors.gold]]
-        logo = "ksu-is.png"
-        link = "http://coles.kennesaw.edu/information-systems/"
-      [[params.sponsors.gold]]
-        logo = "nsa.png"
-        link = "https://www.intelligencecareers.gov/nsa"
-      [[params.sponsors.event]]
-        logo = "foxpick.jpg"
-        link = "https://twitter.com/Fox_Pick"
-      [[params.sponsors.event]]
-        logo = "cg-silvers.png"
-        link = "https://www.cgsilvers.com/"
-      [[params.sponsors.event]]
-        logo = "netkoth.png"
-        link = "https://netkoth.github.io"
-      [[params.sponsors.event]]
-        logo = "abe.png"
-        link = "http://www.abesap.com"
-      [[params.sponsors.silver]]
-        logo = "coalfire.png"
-        link = "https://www.coalfire.com/"
-      [[params.sponsors.silver]]
-        logo = "kudelskisecurity.png"
-        link = "https://www.kudelskisecurity.com/"
-      [[params.sponsors.silver]]
-        logo = "aarons.png"
-        link = "https://www.aarons.com/"
-      [[params.sponsors.silver]]
-        logo = "help-systems.png"
-        link = "https://www.helpsystems.com/"
-      [[params.sponsors.bronze]]
-        logo = "nccgroup.png"
-        link = "https://www.nccgroup.trust/us/"
-      [[params.sponsors.bronze]]
-        logo = "redseer.png"
-        link = "https://www.linkedin.com/company/red-seer-inc"
-      [[params.sponsors.inkind]]
-        logo = "efga.png"
-        link = "https://ef-georgia.org"
-      [[params.sponsors.inkind]]
-        logo = "nostarchpress.png"
-        link = "https://nostarch.com"
-      [[params.sponsors.inkind]]
-        logo = "vhl.jpg"
-        link = "https://www.virtualhackinglabs.com/"
-      [[params.sponsors.inkind]]
-        logo = "htb.png"
-        link = "https://www.hackthebox.eu/"
+#      [[params.sponsors.gold]]
+#        logo = "ksu-is.png"
+#        link = "http://coles.kennesaw.edu/information-systems/"
+#      [[params.sponsors.gold]]
+#        logo = "nsa.png"
+#        link = "https://www.intelligencecareers.gov/nsa"
+#      [[params.sponsors.event]]
+#        logo = "foxpick.jpg"
+#        link = "https://twitter.com/Fox_Pick"
+#      [[params.sponsors.event]]
+#        logo = "cg-silvers.png"
+#        link = "https://www.cgsilvers.com/"
+#      [[params.sponsors.event]]
+#        logo = "netkoth.png"
+#        link = "https://netkoth.github.io"
+#      [[params.sponsors.event]]
+#        logo = "abe.png"
+#        link = "http://www.abesap.com"
+#      [[params.sponsors.silver]]
+#        logo = "coalfire.png"
+#        link = "https://www.coalfire.com/"
+#      [[params.sponsors.silver]]
+#        logo = "kudelskisecurity.png"
+#        link = "https://www.kudelskisecurity.com/"
+#      [[params.sponsors.silver]]
+#        logo = "aarons.png"
+#        link = "https://www.aarons.com/"
+#      [[params.sponsors.silver]]
+#        logo = "help-systems.png"
+#        link = "https://www.helpsystems.com/"
+#      [[params.sponsors.bronze]]
+#        logo = "nccgroup.png"
+#        link = "https://www.nccgroup.trust/us/"
+#      [[params.sponsors.bronze]]
+#        logo = "redseer.png"
+#        link = "https://www.linkedin.com/company/red-seer-inc"
+#      [[params.sponsors.inkind]]
+#        logo = "efga.png"
+#        link = "https://ef-georgia.org"
+#      [[params.sponsors.inkind]]
+#        logo = "nostarchpress.png"
+#        link = "https://nostarch.com"
+#      [[params.sponsors.inkind]]
+#        logo = "vhl.jpg"
+#        link = "https://www.virtualhackinglabs.com/"
+#      [[params.sponsors.inkind]]
+#        logo = "htb.png"
+#        link = "https://www.hackthebox.eu/"
 
   # Footer section
   [params.footer]
