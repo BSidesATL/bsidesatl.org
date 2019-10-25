@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 1600 556" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+<svg width="100%" height="100%" viewBox="0 0 1600 556" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="layer101">
+    </g>
+    <g id="layer102">
+    </g>
+    <g id="layer103">
+    </g>
     <g id="layer104">
         <path d="M1176.7,540.3C1176.3,540 1175.2,539.6 1174.2,539.5C1171,539.3 1171.9,537.7 1175.6,537.3C1179.2,536.9 1182.4,538.5 1181.4,540.1C1180.8,541.2 1177.6,541.3 1176.7,540.3Z" style="fill:rgb(3,4,4);fill-rule:nonzero;"/>
         <path d="M1145.4,531.9C1145.1,531.3 1145.2,530.4 1145.8,529.8C1147,528.6 1151.3,530.6 1150.5,532.1C1149.7,533.3 1146.3,533.3 1145.4,531.9Z" style="fill:rgb(3,4,4);fill-rule:nonzero;"/>
@@ -21,7 +27,7 @@
             <text x="1409.79px" y="209.155px" style="font-family:'Futura-Medium', 'Futura', sans-serif;font-weight:500;font-size:210.767px;fill:white;">A</text>
         </g>
         <g transform="matrix(0.410944,0,0,0.410944,992.799,166.714)">
-            <text x="978.64px" y="198.071px" style="font-family:'Futura-Medium', 'Futura', sans-serif;font-weight:500;font-size:210.767px;fill:white;">2<tspan x="1097.13px 1215.62px 1334.11px " y="198.071px 198.071px 198.071px ">019</tspan></text>
+            <text x="978.64px" y="198.071px" style="font-family:'Futura-Medium', 'Futura', sans-serif;font-weight:500;font-size:210.767px;fill:white;">2<tspan x="1097.13px 1215.62px 1334.11px " y="198.071px 198.071px 198.071px ">020</tspan></text>
         </g>
     </g>
     <g id="layer105">
