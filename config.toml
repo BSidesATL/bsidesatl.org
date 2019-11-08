@@ -75,6 +75,10 @@ googleAnalytics = ""
     # the 'static/img' folder.
     title = "March 28 2020 - KSU Center, Kennesaw"
     subtitle = "BSides Atlanta"
+    
+    [[params.hero.links]]
+      link = "https://ti.to/bsidesatl/bsidesatl2020/"
+      text = "Tickets"
 
   # About section
   [params.about]
