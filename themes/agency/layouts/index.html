@@ -11,6 +11,10 @@
       {{ partial "about.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.training.enable }}
+      {{ partial "training.html" . }}
+    {{ end }}
+
     {{ if .Site.Params.schedule.enable }}
       {{ partial "schedule.html" . }}
     {{ end }}

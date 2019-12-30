@@ -1,0 +1,36 @@
+{{ "<!-- Description -->" | safeHTML }}
+<section id="training" class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ with .Site.Params.training.title }}{{ . | markdownify }}{{ end }}</h2>
+        <h3 class="section-subheading text-mutedwith">{{ with .Site.Params.training.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          {{ range .Site.Params.training.courses }}
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#training-{{ .id }}" aria-expanded="true" aria-controls="training-{{ .id }}">
+                    {{ .title | markdownify }}
+                  </a>
+                </h4>
+              </div>
+              <div id="training-{{ .id }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  {{ .description | markdownify }}
+                  {{ with .ticket }}
+                    <a href="{{ .| absURL }}" class="page-scroll btn btn-xl" target="_blank">Get Ticket</a>
+                  {{ end }}
+                </div>
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

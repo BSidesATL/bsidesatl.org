@@ -41,6 +41,12 @@
           </li>
         {{ end }}
 
+        {{ if .Site.Params.training.enable }}
+          <li>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#training">{{ with .Site.Params.navigation.training}}{{ . }}{{ end }}</a>
+          </li>
+        {{ end }}
+
         {{ if .Site.Params.schedule.enable }}
           <li>
             <a class="page-scroll" href="{{ .Site.BaseURL }}#schedule">{{ with .Site.Params.navigation.schedule }}{{ . }}{{ end }}</a>

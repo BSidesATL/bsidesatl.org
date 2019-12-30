@@ -55,7 +55,7 @@ googleAnalytics = ""
     speakers = "Speakers"
     #portfolio = "Portfolio"
     schedule = "Schedule"
-    team = "Team"
+    training = "Training"
     contact = "Contact"
     sponsors = "Sponsors"
 
@@ -116,6 +116,101 @@ We're doing tickets the same as last year. As always, BSides Atlanta is a free e
 
    A wait list will be available when Wave 2 completes. We will do our best to get tickets to as many people on the wait list as possible.
 
+'''
+
+  [params.training]
+    enable = true
+    title = "Training Sessions"
+    subtitle = "Get some extra learnings the day before, costs extra"
+
+  [[params.training.courses]]
+    id = "pentesting"
+    title = "Pivot Into Pentesting - Coalfire LABS"
+    ticket = "https://ti.to/bsidesatl/bsidesatl2020/"
+    description = '''
+### Course Outline:
+
+- Information Gathering
+- Vulnerability Identification
+- Exploitation
+- Password Cracking
+- Privilege Escalation
+- Capture the Flag
+
+### Course Description
+
+Practice and real-world application are critical to learning how to effectively conduct penetration tests. Coalfire's 1-day Introduction to Penetration Testing class an immersive course that will provide practical experience and a solid framework for conducting in-depth penetration tests in enterprise environments. The majority of this course is spent in a fully operational lab environment, overcoming the real-world obstacles faced in today's enterprise networks. We will cover tactics, techniques, and procedures (TTPs) successful penetration testers use to provide comprehensive and efficient security assessments in a variety of enterprise environments. Methods presented are based on TTPs continually being refined by our penetration testers' operational experience.
+
+Utilizing the right tool for the job is often the difference-maker for an effective penetration test. We will walk you through various commercial and open-source tools for identifying attack vectors and infiltrating enterprise environments. We will cover both network and web testing tools and frameworks. These tools will enable you to collaboratively conduct penetration tests efficiently and effectively against variable target environments. You will also overcome obstacles, practice modern attack techniques, and learn how to use advanced tactics to force-multiply your penetration tests. This course is a smaller version of our BlackHat course and has been updated with current operational methodologies, techniques, and toolsets.
+
+### Who Should Take This Course
+
+Participants with 2+ years of Windows (command-line), Linux, and/or network administration experience, who are interested in learning core penetration testing tradecraft.
+
+### Who Would Not be a Good Fit for This Class?
+
+This class is mostly hands-on and requires prior experience with Windows, Linux, and networks administration. Students who do not have Windows or Linux command-line proficiency or students who are not ready for a fast-paced class will not be a good fit.
+
+### Student Requirements
+
+To get the most from this course, participants should have the following experience:
+
+- At least 2+ years with Windows (command-line), Linux, and/or network administration
+- Networking and TCP/IP fundamentals
+- Experience with at least two of basic Batch, PowerShell, Bash, or Python
+- Strong understanding of how HTTP works
+- Experience with web development technologies
+- Basic understanding of OWASP Top 10
+- Experience with VirtualBox/VMWare-Workstation/Fusion. VMWare Workstation Player is not supported.
+- Willingness to learn hands-on in a fast-paced environment
+
+### What Should Students Bring
+
+Students will be provided with a custom version of the latest Kali Linux image to perform exercises. They will need their own laptop (with administrative access), with a wireless network adapter, 8GB of RAM, and the ability to run a virtual machine (VMWare Player, VMWare Workstation, and VirtualBox). VMWare Workstation Player is not supported. Students will bring an insatiable appetite for learning.
+
+### Trainers
+
+Qasim "Q" Ijaz is Director of Penetration Testing at Coalfire LABS, who specializes in healthcare security and penetration testing. He has conducted hundreds of penetration tests in small to large environments with a focus on networks and web applications testing. His areas of interest include healthcare security, cybersecurity policy, Windows penetration testing, Python, and the "dry" business side of hacking. Qasim is a penetration test lead during the day and a teacher in the after-hours. He has delivered training at conferences as well as in college classrooms.
+
+Andrew Clinton is a Senior Consultant at Coalfire LABS with over 14 years of experience in IT, information security, and infrastructure design & administration. His areas of expertise include networks and applications penetration testing, reverse engineering, continuous security monitoring, PCI compliance, and physical penetration testing. Andrew holds MCSA, OSCP, OSCE, OSWP, OSEE, and CISSP certifications. You can find Andrew adding privileged users to your laptop while you are out of the room, via PCIe DMA attacks.
+
+Brian Landrum is a Consultant at Coalfire LABS. He holds OSCP and Pentest+ certifications. Brian has taught at BlackHat USA and has expertise in networks and applications penetration testing, capture the flag challenges and mobile application penetration testing. In his off-hours, you can find Brian in Hack the Box, Pentesterlabs, or at a CTF near you.
+
+Josh Brown is a Consultant at Coalfire LABS with over 13 years of experience in IT, systems administration, and penetration testing. Josh holds GPEN, GXPN, and OSCP certifications. Josh's areas of expertise include networks and applications penetration testing, reverse engineering, hardware testing, and cryptography.
+'''
+  [[params.training.courses]]
+    id = "malware"
+    title = "Malware Reverse Engineering Class - ECCouncil"
+    description = '''
+### Session One - Understanding the Playing Field
+- Overview of Windows Architecture
+- Understanding the PE file format
+- Understanding
+- LAB: PE Exploring
+
+### Session Two - Assembly Primer
+- Registers
+- Flags
+- Function preamble
+- Variables (FPO and referencing)
+- Calling conventions
+- Identifying branches
+- Identifying loops
+- LAB: Defuse the bomb
+- LAB: Compare high level to assembly code
+
+### Session Three - Static RE
+- Understanding Strings in the binary
+- Understanding Packers and encryption of malware
+- IDA Pro
+- LAB: Analyze Trojan horse
+
+### Session Four - Dynamic RE
+- Understanding Debuggers
+- Understanding Process, Register, File, and Network Monitors
+- Understanding how to capture memory
+- Responder Pro
+- LAB: Analyze Trojan horse
 '''
 
     # About section
