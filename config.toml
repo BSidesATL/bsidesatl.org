@@ -181,6 +181,7 @@ Josh Brown is a Consultant at Coalfire LABS with over 13 years of experience in 
   [[params.training.courses]]
     id = "malware"
     title = "Malware Reverse Engineering Class - ECCouncil"
+    ticket = "https://iclass.eccouncil.org/schedule/malware-reverse-engineering-workshop-atlanta-ga/"
     description = '''
 ### Session One - Understanding the Playing Field
 - Overview of Windows Architecture
@@ -211,6 +212,8 @@ Josh Brown is a Consultant at Coalfire LABS with over 13 years of experience in 
 - Understanding how to capture memory
 - Responder Pro
 - LAB: Analyze Trojan horse
+
+## Discount code: JJ10
 '''
 
     # About section
