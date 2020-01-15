@@ -374,21 +374,50 @@ Nathan has presented his research at global security events including Black Hat,
       # All the sponsors' logos are stored under 'static/img/logos'.
       # Replace them with your sponsors's logos.
       # Suggestion: .svg in the size of 280px*80px looks good
+      [[params.sponsors.gold]]
+        logo = "ksu-is.png"
+        link = "http://coles.kennesaw.edu/information-systems/"
+# TODO Bronze NCCGroup
 #      [[params.sponsors.gold]]
-#        logo = "ksu-is.png"
-#        link = "http://coles.kennesaw.edu/information-systems/"
+#        logo = "nccgroup.png"
+#        link = "https://www.nccgroup.trust/us/"
+#
+      [[params.sponsors.crystal]]
+        logo = "synopsys.png"
+        link = "https://www.synopsys.com/"
+
+      [[params.sponsors.silver]]
+        logo = "kudelskisecurity.png"
+        link = "https://www.kudelskisecurity.com/"
+      [[params.sponsors.silver]]
+        logo = "aarons.png"
+        link = "https://www.aarons.com/"
+
+      [[params.sponsors.event]]
+        logo = "netkoth.png"
+        link = "https://netkoth.github.io"
+      [[params.sponsors.event]]
+        logo = "foxpick.jpg"
+        link = "https://twitter.com/Fox_Pick"
+
+      [[params.sponsors.inkind]]
+        logo = "efga.png"
+        link = "https://ef-georgia.org"
+# TODO Training Coalfire
+# TODO Crystal Synopsys
+# TODO Diamond Turner
+# TODO Gold BishopFox
+# TODO Gold NCR
+# TODO Training ECCouncil
+# TODO Silver Binary Defense
+# TODO Silver Black Hills Info Sec
+
 #      [[params.sponsors.gold]]
 #        logo = "nsa.png"
 #        link = "https://www.intelligencecareers.gov/nsa"
 #      [[params.sponsors.event]]
-#        logo = "foxpick.jpg"
-#        link = "https://twitter.com/Fox_Pick"
-#      [[params.sponsors.event]]
 #        logo = "cg-silvers.png"
 #        link = "https://www.cgsilvers.com/"
-#      [[params.sponsors.event]]
-#        logo = "netkoth.png"
-#        link = "https://netkoth.github.io"
 #      [[params.sponsors.event]]
 #        logo = "abe.png"
 #        link = "http://www.abesap.com"
@@ -396,23 +425,11 @@ Nathan has presented his research at global security events including Black Hat,
 #        logo = "coalfire.png"
 #        link = "https://www.coalfire.com/"
 #      [[params.sponsors.silver]]
-#        logo = "kudelskisecurity.png"
-#        link = "https://www.kudelskisecurity.com/"
-#      [[params.sponsors.silver]]
-#        logo = "aarons.png"
-#        link = "https://www.aarons.com/"
-#      [[params.sponsors.silver]]
 #        logo = "help-systems.png"
 #        link = "https://www.helpsystems.com/"
 #      [[params.sponsors.bronze]]
-#        logo = "nccgroup.png"
-#        link = "https://www.nccgroup.trust/us/"
-#      [[params.sponsors.bronze]]
 #        logo = "redseer.png"
 #        link = "https://www.linkedin.com/company/red-seer-inc"
-#      [[params.sponsors.inkind]]
-#        logo = "efga.png"
-#        link = "https://ef-georgia.org"
 #      [[params.sponsors.inkind]]
 #        logo = "nostarchpress.png"
 #        link = "https://nostarch.com"
