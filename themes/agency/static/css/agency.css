@@ -60,6 +60,10 @@ h6 {
     margin: 0 auto;
 }
 
+.img-fixed-height {
+	max-height: 200px;
+}
+
 .bg-light-gray {
     background-color: #f7f7f7;
 }
