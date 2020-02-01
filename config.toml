@@ -386,6 +386,10 @@ Nathan has presented his research at global security events including Black Hat,
       [[params.sponsors.gold]]
         logo = "ncr.png"
         link = "https://www.ncr.com"
+      [[params.sponsors.gold]]
+        logo = "coalfire.png"
+        link = "https://coalfire.com"
+
 # TODO Bronze NCCGroup
 #      [[params.sponsors.gold]]
 #        logo = "nccgroup.png"
@@ -401,6 +405,12 @@ Nathan has presented his research at global security events including Black Hat,
       [[params.sponsors.silver]]
         logo = "aarons.png"
         link = "https://www.aarons.com/"
+      [[params.sponsors.silver]]
+        logo = "black_hills.png"
+        link = "https://www.blackhillsinfosec.com"
+      [[params.sponsors.silver]]
+        logo = "binary_defense.png"
+        link = "https://binarydefense.com"
 
       [[params.sponsors.event]]
         logo = "netkoth.png"
