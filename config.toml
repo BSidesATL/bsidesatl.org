@@ -389,6 +389,9 @@ Nathan has presented his research at global security events including Black Hat,
       [[params.sponsors.gold]]
         logo = "coalfire.jpg"
         link = "https://coalfire.com"
+      [[params.sponsors.gold]]
+        logo = "kudelskisecurity.png"
+        link = "https://www.kudelskisecurity.com/"
 
 # TODO Bronze NCCGroup
 #      [[params.sponsors.gold]]
