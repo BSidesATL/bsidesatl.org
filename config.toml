@@ -177,6 +177,8 @@ Andrew Clinton is a Senior Consultant at Coalfire LABS with over 14 years of exp
 Brian Landrum is a Consultant at Coalfire LABS. He holds OSCP and Pentest+ certifications. Brian has taught at BlackHat USA and has expertise in networks and applications penetration testing, capture the flag challenges and mobile application penetration testing. In his off-hours, you can find Brian in Hack the Box, Pentesterlabs, or at a CTF near you.
 
 Josh Brown is a Consultant at Coalfire LABS with over 13 years of experience in IT, systems administration, and penetration testing. Josh holds GPEN, GXPN, and OSCP certifications. Josh's areas of expertise include networks and applications penetration testing, reverse engineering, hardware testing, and cryptography.
+
+Jesse Ratcliffe has worked in Computer Science and Cyber Security for the better part of 8 years. Although mostly self-taught, he attended and taught Ethical Hacking classes at ECPI University in Virginia as vice-president/co-founder of the N00b Cr3w Ethical Hacking Club and currently holds his OSCP. He's competed in multiple CTFs and holds an Elite Hacker rank on Hack The Box. He speaks Bash, Python, Golang, various web languages, and can read, write, and understand most others. When he's not researching, programming, or hacking the planet, he enjoys spending time with his wife and two kids watching movies, cooking dinner and being a dad overall. Follow him on LinkedIn or Github (git@github.com/im4x5yn74x).
 '''
   [[params.training.courses]]
     id = "malware"
