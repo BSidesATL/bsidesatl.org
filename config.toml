@@ -401,6 +401,9 @@ Nathan has presented his research at global security events including Black Hat,
       [[params.sponsors.crystal]]
         logo = "synopsys.png"
         link = "https://www.synopsys.com/"
+      [[params.sponsors.crystal]]
+        logo = "critical.path.security.png"
+        link = "https://www.criticalpathsecurity.com/"
 
       [[params.sponsors.silver]]
         logo = "kudelskisecurity.png"
@@ -425,14 +428,7 @@ Nathan has presented his research at global security events including Black Hat,
       [[params.sponsors.inkind]]
         logo = "efga.png"
         link = "https://ef-georgia.org"
-# TODO Training Coalfire
-# TODO Crystal Synopsys
 # TODO Diamond Turner
-# TODO Gold BishopFox
-# TODO Gold NCR
-# TODO Training ECCouncil
-# TODO Silver Binary Defense
-# TODO Silver Black Hills Info Sec
 
 #      [[params.sponsors.gold]]
 #        logo = "nsa.png"
