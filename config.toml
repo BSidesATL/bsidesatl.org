@@ -408,9 +408,6 @@ Nathan has presented his research at global security events including Black Hat,
         link = "https://www.criticalpathsecurity.com/"
 
       [[params.sponsors.silver]]
-        logo = "kudelskisecurity.png"
-        link = "https://www.kudelskisecurity.com/"
-      [[params.sponsors.silver]]
         logo = "aarons.png"
         link = "https://www.aarons.com/"
       [[params.sponsors.silver]]
