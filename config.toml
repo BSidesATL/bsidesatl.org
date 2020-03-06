@@ -220,11 +220,8 @@ Jesse Ratcliffe has worked in Computer Science and Cyber Security for the better
 
     # About section
   [params.schedule]
-    enable = false
+    enable = true
     title = "Schedule"
-    subtitle = "One day, endless entertainment"
-    #endpoint = "Prepare<br>for<br>2019!"
-    endpoint = "More<br>soon"
 
   # Team section
   [params.speakers]
