@@ -52,6 +52,7 @@ googleAnalytics = ""
     # Optional logo as brand stored in img/
     logo = "logo.svg"
     about = "About"
+    news = "News"
     speakers = "Speakers"
     #portfolio = "Portfolio"
     schedule = "Schedule"
@@ -218,6 +219,34 @@ Jesse Ratcliffe has worked in Computer Science and Cyber Security for the better
 ## Discount code: JJ10
 '''
 
+  [params.news]
+     enable = true
+     title = "News about COVID-19"
+     subtitle = "Updated 2020-03-10"
+     text = '''
+All,
+
+Today we placed information on our website regarding BSides Atlanta Event. We intend on continuing, but are monitoring the situation closely.
+
+Our event is scheduled for March 27 and 28.
+
+We are taking a pragmatic approach while putting some protocols in place
+to reduce risk where possible. More importantly we are doing our best to
+set an example for attendees as to how to reduce risk. However, we are now making it clear to attendees, sponsors, staff, and volunteers this is an evolving situation and the health of all involved is the top priority. We are starting to plan for what it would mean to change the conference format if we had to, but are not making any decisions yet. Below We will share a few of the precautions we are taking:
+
+1. The blog post above is the first item: We are advising we will be following CDC recommendations for community events as well as working with our venue (a university) and following the recommendations of state and local officials. There is a distinct possibility the venue or local governments would place a moratorium on large events. If so, we will follow that guidance. 
+2. In the same post, we advise people to examine their own health situation and those of people around them. We ask that they pay particular attention if they have close contact with immune compromised people outside the event and advise refraining from attending may be the best option. We don't want to be uninclusive, but we will be here next year. The health of everyone including those outside the event days and weeks after contact is of utmost importance. 
+3. We are working on providing additional hand sanitizer stations at our venue. 
+4. We will be using opening ceremonies to show off alternate physical greetings we will ask everyone to do. We expect and want to see a lot of "chicken wing" and the foot shake made famous many years ago by Kid n' Play. We will also spend some time talking about the protocols we put in place to reduce risk. 
+5. In our LPV, we will have posted protocols to sanitize hands before using tools/locks, wipe down tools with disinfecting wipes, and to sanitize your hands again once done. We will provide those cleaning materials. 
+6. We generally do a buffet table for lunch during the day. This year we will be adding designated servers with gloves and potentially masks.
+7. We are prepping for video recording of 3 tracks to be posted at later date.
+
+We will continue monitoring this situation. We will also provide updates as we make changes or add additional protocols for
+the safety of the conference. 
+
+Thanks
+'''
     # About section
   [params.schedule]
     enable = true
