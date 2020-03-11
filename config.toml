@@ -224,29 +224,45 @@ Jesse Ratcliffe has worked in Computer Science and Cyber Security for the better
      title = "News about COVID-19"
      subtitle = "Updated 2020-03-10"
      text = '''
-All,
+**BSides Atlanta 2020 will proceed as scheduled.**
 
-Today we placed information on our website regarding BSides Atlanta Event. We intend on continuing, but are monitoring the situation closely.
+**The format of the event will depend on whether or not our host, Kennesaw State University, closes the campus in response to the ongoing COVID-19 situation.**
 
-Our event is scheduled for March 27 and 28.
+As of this update, KSU has announced no plans to close, nor has it announced any restrictions on events being held on campus.  We are proceeding with the expectation that the event will happen as scheduled.  However, please understand that the situation is fluid and may change at any time.  With that understanding, our plan is as follows:
 
-We are taking a pragmatic approach while putting some protocols in place
-to reduce risk where possible. More importantly we are doing our best to
-set an example for attendees as to how to reduce risk. However, we are now making it clear to attendees, sponsors, staff, and volunteers this is an evolving situation and the health of all involved is the top priority. We are starting to plan for what it would mean to change the conference format if we had to, but are not making any decisions yet. Below We will share a few of the precautions we are taking:
+**If KSU does not close:**
 
-1. We will be following CDC recommendations for community events as well as working with our venue (a university) and following the recommendations of state and local officials. There is a distinct possibility the venue or local governments would place a moratorium on large events. If so, we will follow that guidance. 
-2. We advise people to examine their own health situation and those of people around them. We ask that they pay particular attention if they have close contact with immune compromised people outside the event and advise refraining from attending may be the best option. We don't want to be uninclusive, but we will be here next year. The health of everyone including those outside the event days and weeks after contact is of utmost importance. 
-3. We are working on providing additional hand sanitizer stations at our venue. 
-4. We will be using opening ceremonies to show off alternate physical greetings we will ask everyone to do. We expect and want to see a lot of "chicken wing" and the foot shake made famous many years ago by Kid n' Play. We will also spend some time talking about the protocols we put in place to reduce risk. 
-5. In our Lock Pick Village, we will have posted protocols to sanitize hands before using tools/locks, wipe down tools with disinfecting wipes, and to sanitize your hands again once done. We will provide those cleaning materials. 
-6. We generally do a buffet table for lunch during the day. This year we will be adding designated servers with gloves and potentially masks.
-7. We are prepping for video recording of 3 tracks to be posted at later date.
+- Friday paid training classes will occur as scheduled at the KSU Center.
+- Saturday events will occur as scheduled at the KSU Center.
 
-We will continue monitoring this situation. We will also provide updates as we make changes or add additional protocols for
-the safety of the conference. 
+**If KSU does close:**
+
+- Friday paid training classes will be cancelled.  
+  - BSides Atlanta will issue refunds for the “Pivot into Pentesting course”.  
+  - Registrants for the EC Council “Malware Reverse Engineering” course will need to contact EC Council directly to discuss a refund.
+- Saturday’s talks will be delivered via an online conferencing platform.  We will provide additional details about how to access the conferencing platform and all talks.
+- The after-party would still go on!  We have paid a non-refundable deposit for the event at Bowlero, so why not have it anyway!
+
+If the event occurs at KSU Center as scheduled, we will take a pragmatic approach while putting some things in place to reduce risk for attendees, speakers, and volunteers where possible..
+Here are the steps we will take for the event:
+
+- We will follow CDC, state, and local government recommendations for community events
+- We will work to provide as many hand sanitizer stations as we can
+- We will provide sanitizing materials to be used in the LockPick village, so that participants can clean the village equipment prior to use, as well as sanitizing their hands before and after touching any equipment
+- We will provide volunteers to serve food in the lunch buffet line.  The lunch buffet line.  The volunteers will wear gloves and will be responsible for handing you plates as well as serving the individual food items to you.
+
+While we are doing what we can to help minimize risk, we can’t do it alone.  We need attendees, volunteers, and speakers to do their part.  In that spirit, here is what we are asking of you:
+
+- If you are sick or are displaying outward signs of being sick, please do not come to any of our events.  That includes things like running a temperature, coughing, sneezing, wheezing, experiencing shortness of breath - you get the idea here.
+- If you are responsible for caring for elderly folks or small children, please do not come to any of our events.
+- If you are immune-compromised, or are responsible for caring for someone who is immune-compromised, please do not come to any of our events.
+- If you think you may have been in contact (either direct or indirect) with someone who has traveled to a country identified by the CDC as “High Risk” (Level 3 Travel Health Notice) in the last two weeks, please do not come to any of our events.
+
+We will continue monitoring this situation. We will also provide updates as we make changes or add additional protocols for the safety of the conference. 
 
 Thanks,
 BSidesATL Organizers
+Yvette, JoEtta, Patrick, Matt, Andy
 '''
     # About section
   [params.schedule]
