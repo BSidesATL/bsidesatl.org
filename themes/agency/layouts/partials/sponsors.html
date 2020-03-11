@@ -137,7 +137,7 @@
           <a href="bsidesatl-sponsor-2020.pdf">Your company logo here</a>
         </div>
       {{ else }}
-      {{ $cell := div 12 (len .Site.Params.sponsors.bronse) }}
+      {{ $cell := div 12 (len .Site.Params.sponsors.bronze) }}
       {{ range .Site.Params.sponsors.bronze }}
         <div class="col-md-{{ $cell }} col-sm-{{ $cell }} col">
           {{ $url := printf "img/logos/%s" .logo }}

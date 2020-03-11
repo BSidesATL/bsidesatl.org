@@ -392,11 +392,6 @@ Nathan has presented his research at global security events including Black Hat,
         logo = "kudelskisecurity.png"
         link = "https://www.kudelskisecurity.com/"
 
-# TODO Bronze NCCGroup
-#      [[params.sponsors.gold]]
-#        logo = "nccgroup.png"
-#        link = "https://www.nccgroup.trust/us/"
-#
       [[params.sponsors.crystal]]
         logo = "synopsys.png"
         link = "https://www.synopsys.com/"
@@ -413,6 +408,17 @@ Nathan has presented his research at global security events including Black Hat,
       [[params.sponsors.silver]]
         logo = "binary_defense.png"
         link = "https://binarydefense.com"
+      [[params.sponsors.silver]]
+        logo = "guidepoint.png"
+        link = "https://guidepointsecurity.com"
+      [[params.sponsors.silver]]
+        logo = "corelight.png"
+        link = "https://corelight.com"
+
+      [[params.sponsors.bronze]]
+        logo = "nccgroup.png"
+        link = "https://www.nccgroup.trust/us/"
+
 
       [[params.sponsors.event]]
         logo = "netkoth.png"
