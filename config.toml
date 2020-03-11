@@ -222,7 +222,7 @@ Jesse Ratcliffe has worked in Computer Science and Cyber Security for the better
   [params.news]
      enable = true
      title = "News about COVID-19"
-     subtitle = "Updated 2020-03-11 4:45 PM EDT"
+     subtitle = "Updated 2020-03-11 5:15 PM EDT"
      text = '''
 **BSides Atlanta 2020 will proceed as scheduled.**
 
@@ -272,7 +272,7 @@ Yvette, JoEtta, Patrick, Matt, Andy
 _Changelog:_
 
 - 2020-03-11 3:40 PM EDT: Initial publication
-- 2020-03-11 4:45 PM EDT: Pivot into Pentesting course will be held virtually instead of being canceled; fixed copy/paste error in the steps we will take.
+- 2020-03-11 5:15 PM EDT: Pivot into Pentesting course will be held virtually instead of being canceled; fixed copy/paste error in the steps we will take.
 
 '''
     # About section
