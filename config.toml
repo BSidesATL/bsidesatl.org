@@ -52,6 +52,7 @@ googleAnalytics = ""
     # Optional logo as brand stored in img/
     logo = "logo.svg"
     about = "About"
+    news = "News"
     speakers = "Speakers"
     #portfolio = "Portfolio"
     schedule = "Schedule"
@@ -218,6 +219,56 @@ Jesse Ratcliffe has worked in Computer Science and Cyber Security for the better
 ## Discount code: JJ10
 '''
 
+  [params.news]
+     enable = true
+     title = "News about COVID-19"
+     subtitle = "Updated 2020-03-11"
+     text = '''
+**BSides Atlanta 2020 will proceed as scheduled.**
+
+**The format of the event will depend on whether or not our host, Kennesaw State University, closes the campus in response to the ongoing COVID-19 situation.**
+
+As of this update, KSU has announced no plans to close, nor has it announced any restrictions on events being held on campus.  We are proceeding with the expectation that the event will happen as scheduled.  However, please understand that the situation is fluid and may change at any time.  With that understanding, our plan is as follows:
+
+**If KSU does not close:**
+
+- Friday paid training classes will occur as scheduled at the KSU Center.
+- Saturday events will occur as scheduled at the KSU Center.
+
+**If KSU does close:**
+
+- Friday paid training courses:
+  - The _Malware Reverse Engineering_ course will be held virtually. More information will be sent to registrants closer to the date.
+  - The _Pivot into Pentesting_ course will be canceled. BSides Atlanta will issue refunds for this course.  
+- Saturday’s talks will be delivered via an online conferencing platform.  We will provide additional details about how to access the conferencing platform and all talks.
+- The after-party would still go on!  We have paid a non-refundable deposit for the event at Bowlero, so why not have it anyway!
+
+If the event occurs at KSU Center as scheduled, we will take a pragmatic approach while putting some things in place to reduce risk for attendees, speakers, and volunteers where possible.
+
+Here are the steps we will take for the event:
+
+- We will follow CDC, state, and local government recommendations for community events
+- We will work to provide as many hand sanitizer stations as we can
+- We will provide sanitizing materials to be used in the LockPick village, so that participants can clean the village equipment prior to use, as well as sanitizing their hands before and after touching any equipment
+- We will provide volunteers to serve food in the lunch buffet line.  The lunch buffet line.  The volunteers will wear gloves and will be responsible for handing you plates as well as serving the individual food items to you.
+
+While we are doing what we can to help minimize risk, we can’t do it alone.  We need attendees, volunteers, and speakers to do their part.  In that spirit, here is what we are asking of you:
+
+- If you are sick or are displaying outward signs of being sick, please do not come to any of our events.  That includes things like running a temperature, coughing, sneezing, wheezing, experiencing shortness of breath - you get the idea here.
+- If you are responsible for caring for elderly folks or small children, please do not come to any of our events.
+- If you are immune-compromised, or are responsible for caring for someone who is immune-compromised, please do not come to any of our events.
+- If you think you may have been in contact (either direct or indirect) with someone who has traveled to a country identified by the CDC as “High Risk” (Level 3 Travel Health Notice) in the last two weeks, please do not come to any of our events.
+- If you come to the event, please wash your hands frequently throughout the day.
+- If you come to the event, please bring your own personal hand sanitizer and use it frequently throughout the day.
+
+We will continue monitoring this situation. We will also provide updates as we make changes or add additional protocols for the safety of the conference. 
+
+Thanks,
+
+BSidesATL Organizers
+
+Yvette, JoEtta, Patrick, Matt, Andy
+'''
     # About section
   [params.schedule]
     enable = true
