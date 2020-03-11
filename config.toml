@@ -222,7 +222,7 @@ Jesse Ratcliffe has worked in Computer Science and Cyber Security for the better
   [params.news]
      enable = true
      title = "News about COVID-19"
-     subtitle = "Updated 2020-03-11"
+     subtitle = "Updated 2020-03-11 4:45 PM EDT"
      text = '''
 **BSides Atlanta 2020 will proceed as scheduled.**
 
@@ -239,7 +239,7 @@ As of this update, KSU has announced no plans to close, nor has it announced any
 
 - Friday paid training courses:
   - The _Malware Reverse Engineering_ course will be held virtually. More information will be sent to registrants closer to the date.
-  - The _Pivot into Pentesting_ course will be canceled. BSides Atlanta will issue refunds for this course.  
+  - The _Pivot into Pentesting_ course will be held virtually. More information will be sent to registrants closer to the date.
 - Saturday’s talks will be delivered via an online conferencing platform.  We will provide additional details about how to access the conferencing platform and all talks.
 - The after-party would still go on!  We have paid a non-refundable deposit for the event at Bowlero, so why not have it anyway!
 
@@ -268,6 +268,10 @@ Thanks,
 BSidesATL Organizers
 
 Yvette, JoEtta, Patrick, Matt, Andy
+
+_Changelog:_
+- 2020-03-11 3:40 PM EDT: Initial publication
+- 2020-03-11 4:45 PM EDT: Pivot into Pentesting course will be held virtually instead of being canceled
 '''
     # About section
   [params.schedule]
