@@ -222,48 +222,25 @@ Jesse Ratcliffe has worked in Computer Science and Cyber Security for the better
   [params.news]
      enable = true
      title = "News about COVID-19"
-     subtitle = "Updated 2020-03-11 5:15 PM EDT"
+     subtitle = "Updated 2020-03-12 7:00 PM EDT"
      text = '''
-**BSides Atlanta 2020 will proceed as scheduled.**
+**BSides Atlanta 2020 will be held virtually!**
 
-**The format of the event will depend on whether or not our host, Kennesaw State University, closes the campus in response to the ongoing COVID-19 situation.**
+**Paid training will be conducted virtually!**
 
-As of this update, KSU has announced no plans to close, nor has it announced any restrictions on events being held on campus.  We are proceeding with the expectation that the event will happen as scheduled.  However, please understand that the situation is fluid and may change at any time.  With that understanding, our plan is as follows:
+**Afterparty status is changed from definite to "wait and see"**
 
-**If KSU does not close:**
+This afternoon, the University System of Georgia instructed all member institutions to stop teaching for the next two weeks, and have asked students to stay away from campus until 3/29..
 
-- Friday paid training classes will occur as scheduled at the KSU Center.
-- Saturday events will occur as scheduled at the KSU Center.
+As a result of this recent development, the organizers for BSides Atlanta 2020 have made the decision to move the conference to a completely virtual environment for the conference.  We are excited (and more than a little nervous and stressed out about) moving the conference to a virtual environment, but we believe we are up to the challenge and that you will still be able to benefit from the tremendous content we have selected this year.
 
-**If KSU does close:**
+Once we finalize the details on the virtual platform, we will share them via our website and the scheduling website at https://bsidesatl2020.sched.com
 
-- Friday paid training courses:
-  - The _Malware Reverse Engineering_ course will be held virtually. More information will be sent to registrants closer to the date.
-  - The _Pivot into Pentesting_ course will be held virtually. More information will be sent to registrants closer to the date.
-- Saturday’s talks will be delivered via an online conferencing platform.  We will provide additional details about how to access the conferencing platform and all talks.
-- The after-party would still go on!  We have paid a non-refundable deposit for the event at Bowlero, so why not have it anyway!
+Unfortunately, we will have to cancel things like the Lockpick Village, the Net King of the Hill CTF, and the Resume Review workshop.  We are sad to have to do this, but we look forward to having them all back next year!
 
-If the event occurs at KSU Center as scheduled, we will take a pragmatic approach while putting some things in place to reduce risk for attendees, speakers, and volunteers where possible.
+Originally, we had announced that the afterparty would be a "go" no matter what.  We are now revising that to "wait and see".  We are working to get final resolution on this and hope to have another update in the next few days.
 
-Here are the steps we will take for the event:
-
-- We will follow CDC, state, and local government recommendations for community events
-- We will work to provide as many hand sanitizer stations as we can
-- We will provide sanitizing materials to be used in the LockPick village, so that participants can clean the village equipment prior to use, as well as sanitizing their hands before and after touching any equipment
-- We will provide volunteers to serve food in the lunch buffet line. The volunteers will wear gloves and will be responsible for handing you plates as well as serving the individual food items to you.
-
-While we are doing what we can to help minimize risk, we can’t do it alone.  We need attendees, volunteers, and speakers to do their part.  In that spirit, here is what we are asking of you:
-
-- If you are sick or are displaying outward signs of being sick, please do not come to any of our events.  That includes things like running a temperature, coughing, sneezing, wheezing, experiencing shortness of breath - you get the idea here.
-- If you are responsible for caring for elderly folks or small children, please do not come to any of our events.
-- If you are immune-compromised, or are responsible for caring for someone who is immune-compromised, please do not come to any of our events.
-- If you think you may have been in contact (either direct or indirect) with someone who has traveled to a country identified by the CDC as “High Risk” (Level 3 Travel Health Notice) in the last two weeks, please do not come to any of our events.
-- If you come to the event, please wash your hands frequently throughout the day.
-- If you come to the event, please bring your own personal hand sanitizer and use it frequently throughout the day.
-
-We will continue monitoring this situation. We will also provide updates as we make changes or add additional protocols for the safety of the conference. 
-
-Thanks,
+Thank you for your patience, understanding, and flexibility as we work to produce a quality event for you.  We are doing our very best to make this a good day and event for all, in spite of the situation and challenges.
 
 BSidesATL Organizers
 
@@ -273,6 +250,7 @@ _Changelog:_
 
 - 2020-03-11 3:40 PM EDT: Initial publication
 - 2020-03-11 5:15 PM EDT: Pivot into Pentesting course will be held virtually instead of being canceled; fixed copy/paste error in the steps we will take.
+- 2020-03-12 7:00 PM EDT: Contingency plan activated, BSidesATL 2020 going virtual
 
 '''
     # About section
