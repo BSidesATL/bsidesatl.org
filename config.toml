@@ -85,6 +85,26 @@ googleAnalytics = ""
       link = "https://forms.gle/EJYEXyubKiYznHph8"
       text = "Volunteer"
 
+    [[params.hero.links]]
+      link = "https://join.slack.com/t/bsidesatl/shared_invite/zt-cr2n8r5f-KdVMTOFmYZKqZp1TPxMQEg"
+      text = "Join our Slack"
+
+    [[params.hero.links]]
+      link = "https://zoom.us/j/266304316"
+      text = "Connect Track"
+
+    [[params.hero.links]]
+      link = "https://zoom.us/j/711704515"
+      text = "Protect Track"
+
+    [[params.hero.links]]
+      link = "https://zoom.us/j/998173381"
+      text = "Detect Track"
+
+    [[params.hero.links]]
+      link = "https://zoom.us/j/568639261"
+      text = "CTF Stream"
+
   # About section
   [params.about]
     enable = true
