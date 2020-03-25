@@ -408,6 +408,10 @@ Nathan has presented his research at global security events including Black Hat,
       # All the sponsors' logos are stored under 'static/img/logos'.
       # Replace them with your sponsors's logos.
       # Suggestion: .svg in the size of 280px*80px looks good
+      [[params.sponsors.diamond]]
+        logo = "warnermedia.png"
+        link = "https://www.warnermediagroup.com"
+
       [[params.sponsors.gold]]
         logo = "ksu-is.png"
         link = "http://coles.kennesaw.edu/information-systems/"
@@ -450,7 +454,6 @@ Nathan has presented his research at global security events including Black Hat,
       [[params.sponsors.bronze]]
         logo = "nccgroup.png"
         link = "https://www.nccgroup.trust/us/"
-
 
       [[params.sponsors.event]]
         logo = "netkoth.png"
