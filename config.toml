@@ -74,16 +74,28 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "March 28 2020 - KSU Center, Kennesaw"
+    title = "March 28 2020 - Streaming Worldwide"
     subtitle = "BSides Atlanta"
 
     [[params.hero.links]]
-      link = "https://ti.to/bsidesatl/bsidesatl2020/"
-      text = "Tickets"
+      link = "https://join.slack.com/t/bsidesatl/shared_invite/zt-cr2n8r5f-KdVMTOFmYZKqZp1TPxMQEg"
+      text = "Join our Slack"
 
     [[params.hero.links]]
-      link = "https://forms.gle/EJYEXyubKiYznHph8"
-      text = "Volunteer"
+      link = "https://zoom.us/j/266304316"
+      text = "Connect Track"
+
+    [[params.hero.links]]
+      link = "https://zoom.us/j/711704515"
+      text = "Protect Track"
+
+    [[params.hero.links]]
+      link = "https://zoom.us/j/998173381"
+      text = "Detect Track"
+
+    [[params.hero.links]]
+      link = "https://zoom.us/j/568639261"
+      text = "CTF Stream"
 
   # About section
   [params.about]
