@@ -78,14 +78,6 @@ googleAnalytics = ""
     subtitle = "BSides Atlanta"
 
     [[params.hero.links]]
-      link = "https://ti.to/bsidesatl/bsidesatl2020/"
-      text = "Tickets"
-
-    [[params.hero.links]]
-      link = "https://forms.gle/EJYEXyubKiYznHph8"
-      text = "Volunteer"
-
-    [[params.hero.links]]
       link = "https://join.slack.com/t/bsidesatl/shared_invite/zt-cr2n8r5f-KdVMTOFmYZKqZp1TPxMQEg"
       text = "Join our Slack"
 
