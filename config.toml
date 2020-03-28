@@ -77,9 +77,9 @@ googleAnalytics = ""
     title = "March 28 2020 - Streaming Worldwide"
     subtitle = "BSides Atlanta"
 
-    [[params.hero.links]]
-      link = "https://ti.to/bsidesatl/bsidesatl2020/"
-      text = "Tickets"
+    # [[params.hero.links]]
+      # link = "https://ti.to/bsidesatl/bsidesatl2020/"
+      # text = "Tickets"
 
     [[params.hero.links]]
       link = "https://join.slack.com/t/bsidesatl/shared_invite/zt-cr2n8r5f-KdVMTOFmYZKqZp1TPxMQEg"
@@ -108,35 +108,17 @@ googleAnalytics = ""
     text = '''
 Each BSides is a **community-driven** framework for building events for and by information security community members.  The goal is to expand the spectrum of conversation beyond the traditional confines of space and time.  It creates opportunities for individuals to both present and participate in an intimate atmosphere that encourages collaboration. It is an intense event with discussions, demos, and interaction from participants. It is where conversations for the next-big-thing are happening.
 
-# CFP Dates
+# How to Watch
 
-- Monday, November 18 - CFP opens
-- Thursday, January 30 - CFP closes
-- Saturday, February 1 - Review process begins
-- Friday, February 21 - Review process closes
-- Monday, February 24 - Decisions sent out
-
-
-## Ticket Information
-
-We're doing tickets the same as last year. As always, BSides Atlanta is a free event that is open to all.  This year we're continuing the Personal Sponsor option. This sponsorship helps pay for putting the conference on and gets you early access to a ticket.
-
-  We also decided to release free GA tickets in waves based on feedback from all of you. Check the schedule below and get your clicking fingers ready!
-
-   [Click here](https://ti.to/bsidesatl/bsidesatl2020) to get your tickets.
-
-### Ticket Schedule
-
-   - Friday, Nov 8, Noon EST - Personal Sponsor tickets available
-   - Wednesday, January 29, Noon EST - Wave 1 of GA tickets available
-   - Saturday, Feburary 29, Noon EDT - Wave 2 of GA tickets available
-
-   A wait list will be available when Wave 2 completes. We will do our best to get tickets to as many people on the wait list as possible.
+- Connect Track - [Zoom (Primary)](https://zoom.us/j/266304316) / [Twitch (Overflow)](https://www.twitch.tv/bsidesatlconnect)
+- Detect Track - [Zoom (Primary)](https://zoom.us/j/998173381) / [Twitch (Overflow)](https://www.twitch.tv/bsidesatl)
+- Protect Track - [Zoom (Primary)](https://zoom.us/j/711704515) / [Twitch (Overflow)](https://www.twitch.tv/bsidesatlprotect)
+- CTF/Misc. Track - [Zoom (Primary)](https://zoom.us/j/568639261) / [Twitch (Overflow)](https://www.twitch.tv/bsidesatlctf)
 
 '''
 
   [params.training]
-    enable = true
+    enable = false
     title = "Training Sessions"
     subtitle = "Get some extra learnings the day before, costs extra"
 
@@ -244,7 +226,7 @@ Jesse Ratcliffe has worked in Computer Science and Cyber Security for the better
 
 ### Paid training will be conducted virtually
 
-### Afterparty status is changed from definite to "wait and see"
+### Afterparty status is CANCELED
 
 This afternoon, the University System of Georgia instructed all member institutions to stop teaching for the next two weeks, and have asked students to stay away from campus until March 29.
 
@@ -267,6 +249,7 @@ _Changelog:_
 - 2020-03-11 3:40 PM EDT: Initial publication
 - 2020-03-11 5:15 PM EDT: Pivot into Pentesting course will be held virtually instead of being canceled; fixed copy/paste error in the steps we will take.
 - 2020-03-12 7:00 PM EDT: Contingency plan activated, BSidesATL 2020 going virtual
+- 2020-03-28 9:00 AM EDT: Update for cancellation of afterparty
 
 '''
     # About section
