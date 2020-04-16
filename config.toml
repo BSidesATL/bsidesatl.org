@@ -88,6 +88,14 @@ googleAnalytics = ""
     [[params.hero.links]]
       link = "https://www.youtube.com/c/BSidesATL"
       text = "YouTube"
+    
+    [[params.hero.links]]
+      link = "https://bsidesatl2020shirts.itemorder.com"
+      text = "Buy 2020 Shirts"
+    
+    [[params.hero.links]]
+      link = "https://bsidesatl.itemorder.com/sale"
+      text = "Buy Swag"
 
   # About section
   [params.about]
