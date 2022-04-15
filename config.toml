@@ -180,7 +180,7 @@ Yvette, Joetta, and Andy
         ]
 
     [[params.team.members]]
-      # img = "1.jpg"
+      img = "green.jpg"
       name = "Dr. Andy Green"
       #position = "Lead Designer"
       #reportsTo = "CTO"
@@ -194,8 +194,7 @@ Yvette, Joetta, and Andy
       bio = """Andy is an Assistant Professor at KSU"""
       social = [
         ["fa-twitter", "https://twitter.com/AndyGreenPhD"],
-        ["fa-linkedin", "https://www.linkedin.com/in/andygreenphd/"],
-        ["fa-facebook", "#"]
+        ["fa-linkedin", "https://www.linkedin.com/in/andygreenphd/"]
       ]
 
   # Speakers section
