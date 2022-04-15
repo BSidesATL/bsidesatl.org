@@ -50,7 +50,7 @@ googleAnalytics = ""
   [params.navigation]
     brand = "BSidesATL"
     # Optional logo as brand stored in img/
-    logo = "logo.svg"
+    logo = "bsidesatl-light-rgb.png"
     about = "About"
     news = "News"
     speakers = "Speakers"
