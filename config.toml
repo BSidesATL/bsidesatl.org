@@ -74,9 +74,9 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
+    title = "BSides Atlanta 2022"
+    subtitle = "Saturday, August 27th"
     slogan = "Re-engage.  Re-imagine.  Re-ignite."
-    title = "Saturday, August 27th"
-    subtitle = "BSides Atlanta 2022"
 
     # [[params.hero.links]]
       # link = "https://ti.to/bsidesatl/bsidesatl2020/"
