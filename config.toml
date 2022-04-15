@@ -126,40 +126,6 @@ BSides Atlanta Organizers
 Yvette, Joetta, and Andy
 
 '''
-     enable = false
-     title = "News about COVID-19"
-     subtitle = "Updated 2020-03-12 7:00 PM EDT"
-     text = '''
-### BSides Atlanta 2020 will be held virtually
-
-### Paid training will be conducted virtually
-
-### Afterparty status is CANCELED
-
-This afternoon, the University System of Georgia instructed all member institutions to stop teaching for the next two weeks, and have asked students to stay away from campus until March 29.
-
-As a result of this recent development, the organizers for BSides Atlanta 2020 have made the decision to move the conference to a completely virtual environment for the conference.  We are excited (and more than a little nervous and stressed out about) moving the conference to a virtual environment, but we believe we are up to the challenge and that you will still be able to benefit from the tremendous content we have selected this year.
-
-Once we finalize the details on the virtual platform, we will share them via our website and the scheduling website at https://bsidesatl2020.sched.com
-
-Unfortunately, we will have to cancel things like the Lockpick Village, the Net King of the Hill CTF, and the Resume Review workshop.  We are sad to have to do this, but we look forward to having them all back next year!
-
-Originally, we had announced that the afterparty would be a "go" no matter what.  We are now revising that to "wait and see".  We are working to get final resolution on this and hope to have another update in the next few days.
-
-Thank you for your patience, understanding, and flexibility as we work to produce a quality event for you.  We are doing our very best to make this a good day and event for all, in spite of the situation and challenges.
-
-BSidesATL Organizers
-
-Yvette, JoEtta, Patrick, Matt, Andy
-
-_Changelog:_
-
-- 2020-03-11 3:40 PM EDT: Initial publication
-- 2020-03-11 5:15 PM EDT: Pivot into Pentesting course will be held virtually instead of being canceled; fixed copy/paste error in the steps we will take.
-- 2020-03-12 7:00 PM EDT: Contingency plan activated, BSidesATL 2020 going virtual
-- 2020-03-28 9:00 AM EDT: Update for cancellation of afterparty
-
-'''
     # About section
   [params.schedule]
     enable = false
