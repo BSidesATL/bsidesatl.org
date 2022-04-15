@@ -107,31 +107,25 @@ Each BSides is a **community-driven** framework for building events for and by i
 
 '''
 
-  [params.news]
-     enable = true
-     title = "News"
+[params.news]
+   enable = true
+   title = "BSides Atlanta 2022 announcement"
+   subtitle = "BSides Atlanta is set for Saturday, August 27th"
+   text = '''
 
-     [[params.news.events]]
-        title = "BSides Atlanta 2022 announcement"
-        date = "April 14, 2022"
-        subtitle = "BSides Atlanta is set for Saturday, August 27th"
-        description = "Testing"
+We are excited to announce that BSides Atlanta 2022 is scheduled for Saturday, August 20th at the KSU Center in Kennesaw, Georgia!
 
-# '''
-#
-#We are excited to announce that BSides Atlanta 2022 is scheduled for Saturday, August 20th at the KSU Center in Kennesaw, Georgia!
-#
-#After the events of the last two years, we thought a theme of "Re-Engage.  Re-Imagine.  Re-Ignite." seemed appropriate!
-#
-#We will open the CFP website on June 3rd, with a deadline of June 24th.  We will welcome talks of either 20 or 50 minutes.
-#
-#We are really excited about getting back together with everyone, and we cannot wait to see you all in August!
-#
-#BSides Atlanta Organizers
-#
-#Yvette, Joetta, and Andy
-#
-#'''
+After the events of the last two years, we thought a theme of "Re-Engage.  Re-Imagine.  Re-Ignite." seemed appropriate!
+
+We will open the CFP website on June 3rd, with a deadline of June 24th.  We will welcome talks of either 20 or 50 minutes.
+
+We are really excited about getting back together with everyone, and we cannot wait to see you all in August!
+
+BSides Atlanta Organizers
+
+Yvette, Joetta, and Andy
+
+'''
 
     # About section
   [params.schedule]
