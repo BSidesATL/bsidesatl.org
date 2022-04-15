@@ -144,7 +144,7 @@ Yvette, Joetta, and Andy
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "johnson.jpg"
+      img = "johnson2.jpg"
       name = "Yvette Johnson"
       #position = "Lead Designer"
       #reportsTo = "CTO"
@@ -180,7 +180,7 @@ Yvette, Joetta, and Andy
         ]
 
     [[params.team.members]]
-      img = "green.jpg"
+      img = "green2.jpg"
       name = "Dr. Andy Green"
       #position = "Lead Designer"
       #reportsTo = "CTO"
