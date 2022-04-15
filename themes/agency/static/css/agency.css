@@ -306,10 +306,20 @@ header .intro-text {
     padding-bottom: 50px;
 }
 
+header .intro-text .intro-title {
+    margin-bottom: 25px;
+    /* text-transform: uppercase; */
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
 header .intro-text .intro-subtitle {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat,"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 30px;
+    font-weight: 700;
     font-style: italic;
     line-height: 22px;
 }
@@ -318,17 +328,9 @@ header .intro-text .intro-slogan {
   margin-bottom: 25px;
   font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 22px;
+  font-weight: 700;
   font-style: italic;
   line-height: 22px;
-}
-
-header .intro-text .intro-title {
-    margin-bottom: 25px;
-    /* text-transform: uppercase; */
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 50px;
 }
 
 @media(min-width:768px) {
