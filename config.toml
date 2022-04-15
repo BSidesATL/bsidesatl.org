@@ -158,7 +158,6 @@ Yvette, Joetta, and Andy
       bio = """Yvette is the Managing Partner at Passpoint Security"""
       social = [
         ["fa-twitter", "https://twitter.com/JetSetYvette"],
-        #["fa-facebook", "#"],
         ["fa-linkedin", "https://www.linkedin.com/in/yvette-johnson-01806b7/"]
       ]
 
@@ -177,7 +176,6 @@ Yvette, Joetta, and Andy
         bio = """Jo is an experienced security professional as well an Adjunct Professor with a demonstrated history of working in the agile secure software development lifecycle."""
         social = [
           ["fa-twitter", "https://twitter.com/SheRaRox"],
-          #["fa-facebook", "#"],
           ["fa-linkedin", "https://www.linkedin.com/in/joettalesueur/"]
         ]
 
@@ -196,10 +194,8 @@ Yvette, Joetta, and Andy
       bio = """Andy is an Assistant Professor at KSU"""
       social = [
         ["fa-twitter", "https://twitter.com/AndyGreenPhD"],
-        #["fa-facebook", "#"],
-        ["fa-linkedin", "https://www.linkedin.com/in/andygreenphd/"]
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-linkedin", "https://www.linkedin.com/in/andygreenphd/"],
+        ["fa-facebook", "#"]
       ]
 
   # Speakers section
