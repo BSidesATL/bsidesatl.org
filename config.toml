@@ -244,7 +244,7 @@ _Changelog:_
 '''
     # About section
   [params.schedule]
-    enable = true
+    enable = false
     title = "Schedule"
 
   # Team section
