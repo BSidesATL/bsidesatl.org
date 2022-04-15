@@ -76,7 +76,7 @@ googleAnalytics = ""
     # the 'static/img' folder.
     title = "BSides Atlanta 2022"
     subtitle = "Saturday, August 27th"
-    slogan = "Re-engage.  Re-imagine.  Re-ignite."
+    slogan = "Theme:  Re-engage.  Re-imagine.  Re-ignite."
 
     # [[params.hero.links]]
       # link = "https://ti.to/bsidesatl/bsidesatl2020/"
