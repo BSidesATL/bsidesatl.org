@@ -109,9 +109,13 @@ Each BSides is a **community-driven** framework for building events for and by i
 
   [params.news]
      enable = true
-     title = "BSides Atlanta 2022 announcement"
-     subtitle = "BSides Atlanta is set for Saturday, August 27th"
-     text = '''
+     title = "News"
+
+     [[params.news.events]]
+        title = "BSides Atlanta 2022 announcement"
+        date = "April 14, 2022"
+        subtitle = "BSides Atlanta is set for Saturday, August 27th"
+        description = '''
 
 We are excited to announce that BSides Atlanta 2022 is scheduled for Saturday, August 20th at the KSU Center in Kennesaw, Georgia!
 
@@ -126,6 +130,7 @@ BSides Atlanta Organizers
 Yvette, Joetta, and Andy
 
 '''
+
     # About section
   [params.schedule]
     enable = false
